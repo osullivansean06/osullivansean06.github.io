@@ -3,31 +3,25 @@
 <head>
 	<title>Image with Button Overlay</title>
 	<style>
-		#boardImg {
+        #image-container {
 			position: relative;
-			width: 400px;
-			height: 600px;
+			width: 1080px;
+			height: 1920px;
+		}
+        #boardImg {
+			position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
 		}
 		.button {
 			position: absolute;
-			display: block;
 			width: 50px;
 			height: 50px;
-			background-color: #000;
-			color: #fff;
-			text-align: center;
-			line-height: 50px;
-			cursor: pointer;
-			border: none;
+            outline: 5px solid transparent;
+			background-color: transparent;
 			border-radius: 50%;
-			font-size: 20px;
-			font-weight: bold;
-			opacity: 0.7;
-			transition: all 0.3s ease-in-out;
-		}
-		.button:hover {
-			opacity: 1;
-			transform: scale(1.2);
 		}
 	</style>
 </head>
@@ -36,10 +30,10 @@
 		<img id="boardImg" src="board.jpg" alt="placeholder image">
 		<script>
 			const buttons = [
-				{ label: 'Button 1', top: 100, left: 50 },
-				{ label: 'Button 2', top: 150, left: 100 },
-				{ label: 'Button 3', top: 200, left: 150 },
-				{ label: 'Button 4', top: 250, left: 200 }
+				{ id: 'hold_001', top: 200, left: 20,  state: 'out' },
+				{ id: 'hold_002', top: 200, left: 230, state: 'out' },
+				{ id: 'hold_003', top: 220, left: 320, state: 'out' },
+				{ id: 'hold_004', top: 200, left: 510, state: 'out' }
 			];
 
 			buttons.forEach(button => {
@@ -47,7 +41,29 @@
 				buttonElement.classList.add('button');
 				buttonElement.style.top = `${button.top}px`;
 				buttonElement.style.left = `${button.left}px`;
-				buttonElement.textContent = button.label;
+                buttonElement.addEventListener('click', () => {
+                    switch(button.state){
+                        case 'out':
+                            button.state = 'in';
+                            buttonElement.style.outlineColor  = 'white';
+                            break;
+                        case 'in':
+                            button.state = 'start';
+                            buttonElement.style.outlineColor  = 'green';
+                            break;
+                        case 'start':
+                            button.state = 'top';
+                            buttonElement.style.outlineColor  = 'red';
+                            break;
+                        case 'top':
+                            button.state = 'out';
+                            buttonElement.style.outlineColor  = 'transparent';
+                            break;
+                        default:
+                            break;
+                    }
+                    console.log(`Button "${button.id}" clicked at position (${button.top}, ${button.left})`);
+                });
 				document.getElementById('image-container').appendChild(buttonElement);
 			});
 		</script>
