@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image with Button Overlay</title>
+	<style>
+		#boardImg {
+			position: relative;
+			width: 400px;
+			height: 600px;
+		}
+		.button {
+			position: absolute;
+			display: block;
+			width: 50px;
+			height: 50px;
+			background-color: #000;
+			color: #fff;
+			text-align: center;
+			line-height: 50px;
+			cursor: pointer;
+			border: none;
+			border-radius: 50%;
+			font-size: 20px;
+			font-weight: bold;
+			opacity: 0.7;
+			transition: all 0.3s ease-in-out;
+		}
+		.button:hover {
+			opacity: 1;
+			transform: scale(1.2);
+		}
+	</style>
+</head>
+<body>
+	<div id="image-container">
+		<img id="boardImg" src="board.jpg" alt="placeholder image">
+		<script>
+			const buttons = [
+				{ label: 'Button 1', top: 100, left: 50 },
+				{ label: 'Button 2', top: 150, left: 100 },
+				{ label: 'Button 3', top: 200, left: 150 },
+				{ label: 'Button 4', top: 250, left: 200 }
+			];
+
+			buttons.forEach(button => {
+				const buttonElement = document.createElement('button');
+				buttonElement.classList.add('button');
+				buttonElement.style.top = `${button.top}px`;
+				buttonElement.style.left = `${button.left}px`;
+				buttonElement.textContent = button.label;
+				document.getElementById('image-container').appendChild(buttonElement);
+			});
+		</script>
+	</div>
+</body>
+</html>
