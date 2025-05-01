@@ -14,7 +14,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Small Talk",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "B.James",
@@ -34,7 +34,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Moth Catcher",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -54,7 +54,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Plundering The Spirit",
-        "grade": "E2",
+        "grade": "E2 5b",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -74,7 +74,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Julie",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1997,
         "climber1": "R.Purvis",
         "climber2": "G.Murray",
@@ -94,7 +94,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Seminary Gates",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1972,
         "climber1": "R.Telford",
         "climber2": "J.Forsythe",
@@ -114,7 +114,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Bethanie",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "",
@@ -154,7 +154,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Dog Gone",
-        "grade": "E4",
+        "grade": "E4 6a",
         "year": 1995,
         "climber1": "T.Fallon",
         "climber2": "A.Weir",
@@ -174,7 +174,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Western Blue",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1987,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -194,7 +194,7 @@
         "crag": "Slieve Binnian",
         "sector": "Gamma Tor",
         "route": "Western Blue Var. - Direct Finish",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1988,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -234,7 +234,7 @@
         "crag": "Slieve Binnian",
         "sector": "Summit Tor",
         "route": "My Traitors Heart",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -254,7 +254,7 @@
         "crag": "Slieve Binnian",
         "sector": "Summit Tor",
         "route": "Unlimited Edition",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1980,
         "climber1": "M.Manson",
         "climber2": "",
@@ -274,7 +274,7 @@
         "crag": "Slieve Binnian",
         "sector": "Summit Tor",
         "route": "The Road to Mickle Seggie",
-        "grade": "E2",
+        "grade": "E2 5b",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -294,7 +294,7 @@
         "crag": "Slieve Binnian",
         "sector": "Summit Tor",
         "route": "Challenge for Youth",
-        "grade": "VS",
+        "grade": "VS 4b",
         "year": 1988,
         "climber1": "G.Murray",
         "climber2": "",
@@ -346,6 +346,106 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -5.979832052063259,
+          54.14195723640628
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Binnian",
+        "sector": "Summit Tor",
+        "route": "Pokey",
+        "grade": "HS 4b",
+        "year": 1966,
+        "climber1": "W.Jenkins",
+        "climber2": "I.Brown",
+        "climber3": "C.Moore"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.97983205206326,
+          54.14195723640628
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Binnian",
+        "sector": "Summit Tor",
+        "route": "Falmingos Fly",
+        "grade": "E3 6a",
+        "year": 1995,
+        "climber1": "G.Murray",
+        "climber2": "B.James",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979832052063261,
+          54.14195723640628
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Binnian",
+        "sector": "Summit Tor",
+        "route": "Wild Swans",
+        "grade": "VS 4c",
+        "year": 1992,
+        "climber1": "G.Murray",
+        "climber2": "T.O'Dowd",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979832052063262,
+          54.14195723640628
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Binnian",
+        "sector": "Summit Tor",
+        "route": "Dikta",
+        "grade": "VS 4c",
+        "year": 1992,
+        "climber1": "G.Murray",
+        "climber2": "T.O'Dowd",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979832052063263,
+          54.14195723640628
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Binnian",
+        "sector": "Summit Tor",
+        "route": "Drop the E",
+        "grade": "HS 4a",
+        "year": 1997,
+        "climber1": "V.Moorehead",
+        "climber2": "A.Weir",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -5.980971502691386,
           54.14099710066419
         ]
@@ -354,7 +454,7 @@
         "crag": "Slieve Binnian",
         "sector": "Lower Summit Tor",
         "route": "The Great Days",
-        "grade": "E2",
+        "grade": "E2 6a",
         "year": 1992,
         "climber1": "G.Murray",
         "climber2": "T.O'Dowd",
@@ -374,7 +474,7 @@
         "crag": "Slieve Binnian",
         "sector": "Lower Summit Tor",
         "route": "Monkey Business",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1987,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -394,7 +494,7 @@
         "crag": "Slieve Binnian",
         "sector": "Lower Summit Tor",
         "route": "Friction Addiction",
-        "grade": "E2",
+        "grade": "E2 5c",
         "year": 1989,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -414,7 +514,7 @@
         "crag": "Slieve Binnian",
         "sector": "Lower Summit Tor",
         "route": "Dreams and Disappointments",
-        "grade": "E3",
+        "grade": "E3 6a",
         "year": 1997,
         "climber1": "G.Murray",
         "climber2": "R.Purvis",
@@ -434,7 +534,7 @@
         "crag": "Slieve Binnian",
         "sector": "Lower Summit Tor",
         "route": "Avalon Sunset",
-        "grade": "HVS",
+        "grade": "HVS 5b",
         "year": 1989,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -454,7 +554,7 @@
         "crag": "Slieve Binnian",
         "sector": "Lower Summit Tor",
         "route": "The One Eyed Money Changer",
-        "grade": "E2",
+        "grade": "E2 6a",
         "year": 1992,
         "climber1": "G.Murray",
         "climber2": "T.O'Dowd",
@@ -474,7 +574,7 @@
         "crag": "Slieve Binnian",
         "sector": "Lower Summit Tor",
         "route": "The Homecoming",
-        "grade": "E2",
+        "grade": "E2 5b",
         "year": 1989,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -494,7 +594,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Niche Route",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1947,
         "climber1": "R.R.Johnston",
         "climber2": "Party",
@@ -534,7 +634,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Organ Var. - Direct Start",
-        "grade": "E2",
+        "grade": "E2 5b",
         "year": 1996,
         "climber1": "I.Rea",
         "climber2": "R.Bankhead",
@@ -554,7 +654,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Angry Fool",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1993,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -574,7 +674,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Organ Pipe",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1988,
         "climber1": "I.Bankhead",
         "climber2": "P.Wells",
@@ -594,7 +694,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Ancient Highway",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "K.Lindsay",
@@ -634,7 +734,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Paradise and Lunch",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1984,
         "climber1": "T.McQueen",
         "climber2": "I.Rea",
@@ -654,7 +754,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Paradise and Lunch Var. - Some Other Rainbow",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1990,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -674,7 +774,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Little Rose",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1997,
         "climber1": "G.Murray",
         "climber2": "T.Mercer",
@@ -694,7 +794,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Big Bro",
-        "grade": "E2",
+        "grade": "E2 5b",
         "year": 1994,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -714,7 +814,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Little Bro",
-        "grade": "E2",
+        "grade": "E2 5c",
         "year": 1996,
         "climber1": "G.Murray",
         "climber2": "B.James",
@@ -734,7 +834,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Rosasail",
-        "grade": "VS",
+        "grade": "VS 4b",
         "year": 1988,
         "climber1": "P.Hargreaves",
         "climber2": "W.Galway",
@@ -754,7 +854,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Hannah",
-        "grade": "HS",
+        "grade": "HS ",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -794,7 +894,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "True Grit",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1979,
         "climber1": "A.McQuoid",
         "climber2": "P.Douglas",
@@ -814,7 +914,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Winds of Change",
-        "grade": "E3",
+        "grade": "E3 6a",
         "year": 1993,
         "climber1": "G.Murray",
         "climber2": "M.Rea",
@@ -834,7 +934,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Trilogy",
-        "grade": "E3",
+        "grade": "E3 5c",
         "year": 1996,
         "climber1": "G.Murray",
         "climber2": "R.Purvis",
@@ -854,7 +954,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "The Message",
-        "grade": "E3",
+        "grade": "E3 5c",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "A.McMullan",
@@ -874,7 +974,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Capper's Pinnacle",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -894,7 +994,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Capper's Groove",
-        "grade": "S",
+        "grade": "S 3c",
         "year": 1981,
         "climber1": "M.Mills",
         "climber2": "J.Forsythe",
@@ -934,7 +1034,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "Hard Times",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "B.James",
@@ -974,7 +1074,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "The Nearly Man",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -994,7 +1094,7 @@
         "crag": "Slieve Binnian",
         "sector": "Beta Tor",
         "route": "We Deliver Wreaths",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -1094,7 +1194,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "A Walk in the Clouds",
-        "grade": "E3",
+        "grade": "E3 5c",
         "year": 1996,
         "climber1": "G.Murray",
         "climber2": "Party",
@@ -1114,7 +1214,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Pete's Delight",
-        "grade": "HVS",
+        "grade": "HVS 4c",
         "year": 1982,
         "climber1": "P.Coakley",
         "climber2": "I.Rea",
@@ -1154,7 +1254,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "The Wart",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1971,
         "climber1": "J.Forsythe",
         "climber2": "L.Marshall",
@@ -1174,7 +1274,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Savage Skies",
-        "grade": "E3",
+        "grade": "E3 6a",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "B.James",
@@ -1194,7 +1294,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Tart",
-        "grade": "HVS",
+        "grade": "HVS 4c",
         "year": 1973,
         "climber1": "D.Rankin",
         "climber2": "",
@@ -1214,7 +1314,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Dart",
-        "grade": "HVS",
+        "grade": "HVS 4c",
         "year": 1973,
         "climber1": "D.Rankin",
         "climber2": "",
@@ -1234,7 +1334,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Phart",
-        "grade": "HVS",
+        "grade": "HVS 5b",
         "year": 1982,
         "climber1": "P.Wright",
         "climber2": "R.Bankhead",
@@ -1254,7 +1354,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Pouchle Perilous",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1951,
         "climber1": "W.A.Robertson",
         "climber2": "K.W.W.Double",
@@ -1274,7 +1374,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Pouchle Perilous Var. Climb On a Thin Shadow",
-        "grade": "E3",
+        "grade": "E3 5c",
         "year": 1988,
         "climber1": "P.Hargreaves",
         "climber2": "",
@@ -1294,7 +1394,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Pouchle Perilous Var. Days Like This",
-        "grade": "E2",
+        "grade": "E2 5b",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "K.Lindsay",
@@ -1314,7 +1414,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Esoteric",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "T.Mercer",
@@ -1334,7 +1434,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Spiny Norman",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1976,
         "climber1": "D.Stelfox",
         "climber2": "H.McKee",
@@ -1354,7 +1454,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "The Big Hype",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -1374,7 +1474,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Prayer",
-        "grade": "VS",
+        "grade": "VS 5a",
         "year": 1969,
         "climber1": "J.Anderson",
         "climber2": "P.S.Moynihan",
@@ -1414,7 +1514,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Wild Trails",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -1474,7 +1574,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Pocahontas",
-        "grade": "VS",
+        "grade": "VS 5a",
         "year": 1987,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -1494,7 +1594,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Riot",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1969,
         "climber1": "R.Cole",
         "climber2": "L.Carew",
@@ -1514,7 +1614,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Grot and Groove",
-        "grade": "S",
+        "grade": "S 3c",
         "year": 1952,
         "climber1": "K.W.W.Double",
         "climber2": "T.Nevin",
@@ -1534,7 +1634,7 @@
         "crag": "Slieve Binnian",
         "sector": "South Tor",
         "route": "Olympia",
-        "grade": "S",
+        "grade": "S 3c",
         "year": 1996,
         "climber1": "I.Rea",
         "climber2": "R.Bankhead",
@@ -1574,7 +1674,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "Small Cahnge",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1996,
         "climber1": "G.Murray",
         "climber2": "",
@@ -1594,7 +1694,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "Lorry",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1982,
         "climber1": "J.Forsythe",
         "climber2": "D.Pyper",
@@ -1674,7 +1774,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "No Limits",
-        "grade": "E2",
+        "grade": "E2 6a",
         "year": 1986,
         "climber1": "G.Murray",
         "climber2": "C.Cartwright",
@@ -1774,7 +1874,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "Evening Wall",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1900,
         "climber1": "Unknown",
         "climber2": "",
@@ -1794,7 +1894,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "True Lies",
-        "grade": "E2",
+        "grade": "E2 5b",
         "year": 1996,
         "climber1": "G.Murray",
         "climber2": "",
@@ -1814,7 +1914,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "Evening Groove",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1972,
         "climber1": "J.Forsythe",
         "climber2": "R.Telford",
@@ -1834,7 +1934,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "The Delta Force",
-        "grade": "HVS",
+        "grade": "HVS 4c",
         "year": 1985,
         "climber1": "G.Murray",
         "climber2": "",
@@ -1854,7 +1954,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "The Azure",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1990,
         "climber1": "I.Rea",
         "climber2": "K.Lindsay",
@@ -1874,7 +1974,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "Something Else",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1990,
         "climber1": "K.Lindsay",
         "climber2": "I.Rea",
@@ -1894,7 +1994,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "High Country",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1990,
         "climber1": "I.Rea",
         "climber2": "K.Lindsay",
@@ -1914,7 +2014,7 @@
         "crag": "Slieve Binnian",
         "sector": "Delta Tor",
         "route": "Cabin Fever",
-        "grade": "VS",
+        "grade": "VS 5a",
         "year": 1990,
         "climber1": "I.Rea",
         "climber2": "K.Lindsay",
@@ -1954,7 +2054,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Invisible Hands",
-        "grade": "VS",
+        "grade": "VS 4b",
         "year": 1990,
         "climber1": "I.Rea",
         "climber2": "K.Lindsay",
@@ -1974,7 +2074,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Better Days",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "B.James",
@@ -1994,7 +2094,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Commando",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -2014,7 +2114,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "The Terminator",
-        "grade": "E4",
+        "grade": "E4 6a",
         "year": 1986,
         "climber1": "G.Murray",
         "climber2": "C.Cartwright",
@@ -2034,7 +2134,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Kindergarten Kop",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -2054,7 +2154,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Jabberwock",
-        "grade": "HVS",
+        "grade": "HVS 4c",
         "year": 1971,
         "climber1": "J.Forsythe",
         "climber2": "L.Marshall",
@@ -2074,7 +2174,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Leap Of Faith",
-        "grade": "E4",
+        "grade": "E4 6a",
         "year": 1994,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -2094,7 +2194,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "The Quick and the Dead",
-        "grade": "E5",
+        "grade": "E5 6b",
         "year": 2006,
         "climber1": "A.Marshall",
         "climber2": "S.Gordon",
@@ -2114,7 +2214,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "We're All Learning",
-        "grade": "E7",
+        "grade": "E7 6c",
         "year": 2005,
         "climber1": "R.Bell",
         "climber2": "A.Marshall",
@@ -2134,7 +2234,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Psycho Killer",
-        "grade": "E3",
+        "grade": "E3 6a",
         "year": 1986,
         "climber1": "G.Murray",
         "climber2": "C.Cartwright",
@@ -2154,7 +2254,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Spectre",
-        "grade": "E3",
+        "grade": "E3 5c",
         "year": 1986,
         "climber1": "C.Cartwright",
         "climber2": "G.Murray",
@@ -2174,7 +2274,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Streets Of Gold",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1994,
         "climber1": "G.Murray",
         "climber2": "",
@@ -2194,7 +2294,7 @@
         "crag": "Slieve Binnian",
         "sector": "Jabberwock Tor",
         "route": "Uncharted Territory",
-        "grade": "E6",
+        "grade": "E6 6c",
         "year": 2007,
         "climber1": "A.Marshall",
         "climber2": "C.Hiller",
@@ -2214,7 +2314,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Cowboy Kelly",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 2007,
         "climber1": "A.Marshall",
         "climber2": "",
@@ -2234,7 +2334,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Blood on the Cracks",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1985,
         "climber1": "G.Murray",
         "climber2": "",
@@ -2254,7 +2354,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Meanstreak",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1982,
         "climber1": "T.Snaith",
         "climber2": "",
@@ -2274,7 +2374,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Lockjaw",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1987,
         "climber1": "P.Hargreaves",
         "climber2": "A.Whitcroft",
@@ -2294,7 +2394,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Lancastration",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1959,
         "climber1": "J.Leyland",
         "climber2": "P.Grindley",
@@ -2314,7 +2414,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Impending Bloom",
-        "grade": "E2",
+        "grade": "E2 5b",
         "year": 1992,
         "climber1": "A.Weir",
         "climber2": "S.Armstrong",
@@ -2334,7 +2434,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Saloon Bar Soviet",
-        "grade": "HVS",
+        "grade": "HVS 5c",
         "year": 1985,
         "climber1": "P.Holmes",
         "climber2": "M.McNaught",
@@ -2354,7 +2454,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Eos",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1985,
         "climber1": "I.Rea",
         "climber2": "G.Murray",
@@ -2374,7 +2474,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Militant Tendancies",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1985,
         "climber1": "G.Murray",
         "climber2": "I.Rea",
@@ -2394,7 +2494,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Zuma",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1984,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -2434,7 +2534,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "York Street",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1955,
         "climber1": "F.Winder",
         "climber2": "C.McCormack",
@@ -2454,7 +2554,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Fuzzy Logic",
-        "grade": "HVS",
+        "grade": "HVS 4c",
         "year": 2006,
         "climber1": "C.Hiller",
         "climber2": "A.Miller",
@@ -2474,7 +2574,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Kimmage Groove",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1951,
         "climber1": "J.Morrison",
         "climber2": "P.Kenny",
@@ -2494,7 +2594,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "On the Move",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1987,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -2514,7 +2614,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "The Penguin on Newcastle Beach",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1981,
         "climber1": "G.McCullough",
         "climber2": "C.Stewart",
@@ -2534,7 +2634,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "The Enemy Within",
-        "grade": "E5",
+        "grade": "E5 6b",
         "year": 2006,
         "climber1": "A.Marshall",
         "climber2": "A.Miller",
@@ -2554,7 +2654,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Tollerance",
-        "grade": "E8",
+        "grade": "E8 6c",
         "year": 1994,
         "climber1": "J.Dunne",
         "climber2": "",
@@ -2574,7 +2674,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Screamers",
-        "grade": "VS",
+        "grade": "VS 5a",
         "year": 1900,
         "climber1": "Unknown",
         "climber2": "",
@@ -2594,7 +2694,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Jack's Crack",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1900,
         "climber1": "Unknown",
         "climber2": "",
@@ -2614,7 +2714,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Rankin's Crack",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1900,
         "climber1": "Unknown",
         "climber2": "",
@@ -2634,7 +2734,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Fascist Architecture",
-        "grade": "HVS",
+        "grade": "HVS 5b",
         "year": 1985,
         "climber1": "G.Murray",
         "climber2": "P.Gribbon",
@@ -2654,7 +2754,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Q Tips",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1987,
         "climber1": "G.Murray",
         "climber2": "R.Bankhead",
@@ -2674,7 +2774,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Crystal Methods",
-        "grade": "E8",
+        "grade": "E8 6c",
         "year": 2005,
         "climber1": "S.Moore",
         "climber2": "",
@@ -2694,7 +2794,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "First Blood",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1985,
         "climber1": "G.Murray",
         "climber2": "I.Rea",
@@ -2734,7 +2834,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Memories",
-        "grade": "VS",
+        "grade": "VS 5a",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "M.McNaught",
@@ -2754,7 +2854,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Eddie King's Force",
-        "grade": "E4",
+        "grade": "E4 5c",
         "year": 2003,
         "climber1": "S.Moore",
         "climber2": "",
@@ -2774,7 +2874,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "The Mushroom Boyz",
-        "grade": "E7",
+        "grade": "E7 6c",
         "year": 2003,
         "climber1": "S.Moore",
         "climber2": "",
@@ -2794,7 +2894,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Dreadlocks Holiday",
-        "grade": "VS",
+        "grade": "VS 5a",
         "year": 1981,
         "climber1": "G.McCullough",
         "climber2": "M.McNaught",
@@ -2814,7 +2914,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Dreadlocks Holiday var. Start",
-        "grade": "VS",
+        "grade": "VS 5a",
         "year": 1992,
         "climber1": "J.Herron",
         "climber2": "",
@@ -2834,7 +2934,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Dreadlocks Holiday var. Finish",
-        "grade": "E2",
+        "grade": "E2 5c",
         "year": 1997,
         "climber1": "G.Murray",
         "climber2": "",
@@ -2854,7 +2954,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Thrill Issues of the Jellyman",
-        "grade": "E7",
+        "grade": "E7 6b",
         "year": 2005,
         "climber1": "R.Bell",
         "climber2": "A.Moles",
@@ -2874,7 +2974,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Hombre",
-        "grade": "E4",
+        "grade": "E4 6a",
         "year": 2005,
         "climber1": "E.Cooper",
         "climber2": "D.Hamill",
@@ -2894,7 +2994,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "I Am Spiderman",
-        "grade": "E7",
+        "grade": "E7 6c",
         "year": 2004,
         "climber1": "R.Bell",
         "climber2": "A.Wilson",
@@ -2914,7 +3014,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "The Pookka MacPhellimey",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1982,
         "climber1": "G.McCullough",
         "climber2": "T.Spiers",
@@ -2934,7 +3034,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Gotta Go Back",
-        "grade": "E1",
+        "grade": "E1 5a",
         "year": 1989,
         "climber1": "G.Murray",
         "climber2": "",
@@ -2954,7 +3054,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Cajun Stomp",
-        "grade": "HVS",
+        "grade": "HVS 4b",
         "year": 1985,
         "climber1": "I.Rea",
         "climber2": "G.Murray",
@@ -2974,7 +3074,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Dr Strabismus",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1980,
         "climber1": "G.McCullough",
         "climber2": "",
@@ -3014,7 +3114,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "I Am Not Spiderman",
-        "grade": "E4",
+        "grade": "E4 6a",
         "year": 2005,
         "climber1": "E.Cooper",
         "climber2": "A.Warnock",
@@ -3034,7 +3134,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Electra",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1985,
         "climber1": "I.Rea",
         "climber2": "G.Murray",
@@ -3054,7 +3154,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Domino",
-        "grade": "HVS",
+        "grade": "HVS 4c",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -3074,7 +3174,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Moondance",
-        "grade": "HVS",
+        "grade": "HVS 4c",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -3094,7 +3194,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Wildwood Flower",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1987,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3114,7 +3214,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Famous For Wheaten Bread",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -3134,7 +3234,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Easy Now",
-        "grade": "E5",
+        "grade": "E5 6b",
         "year": 2004,
         "climber1": "J.Pearson",
         "climber2": "",
@@ -3154,7 +3254,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Bendies",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1976,
         "climber1": "R.Cole",
         "climber2": "M.Mills",
@@ -3194,7 +3294,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Living In A Heartache",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1985,
         "climber1": "G.Murray",
         "climber2": "",
@@ -3214,7 +3314,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Left of Centre",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1987,
         "climber1": "G.Murray",
         "climber2": "R.Bankhead",
@@ -3234,7 +3334,7 @@
         "crag": "Slieve Binnian",
         "sector": "North Tor",
         "route": "Grimcrack",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1981,
         "climber1": "M.Mills",
         "climber2": "J.Forsythe",
@@ -3274,7 +3374,7 @@
         "crag": "Slieve Binnian",
         "sector": "Binnian Lough Crag",
         "route": "Blue Jay",
-        "grade": "HS",
+        "grade": "HS 4a",
         "year": 1991,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3286,7 +3386,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.976563145838539,
+          -5.97656314583854,
           54.15336561318526
         ]
       },
@@ -3294,7 +3394,7 @@
         "crag": "Slieve Binnian",
         "sector": "Binnian Lough Crag",
         "route": "Different Drum",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1991,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3306,7 +3406,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.976563145838539,
+          -5.976563145838541,
           54.15336561318526
         ]
       },
@@ -3314,7 +3414,7 @@
         "crag": "Slieve Binnian",
         "sector": "Binnian Lough Crag",
         "route": "Untold Tales",
-        "grade": "E3",
+        "grade": "E3 6b",
         "year": 2008,
         "climber1": "J.Orr",
         "climber2": "J.Parr",
@@ -3326,7 +3426,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.976563145838539,
+          -5.976563145838542,
           54.15336561318526
         ]
       },
@@ -3334,7 +3434,7 @@
         "crag": "Slieve Binnian",
         "sector": "Binnian Lough Crag",
         "route": "Riot",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1991,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3346,7 +3446,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.976563145838539,
+          -5.976563145838543,
           54.15336561318526
         ]
       },
@@ -3354,7 +3454,7 @@
         "crag": "Slieve Binnian",
         "sector": "Binnian Lough Crag",
         "route": "Big Sky",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1991,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3366,7 +3466,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.976563145838539,
+          -5.976563145838544,
           54.15336561318526
         ]
       },
@@ -3374,7 +3474,7 @@
         "crag": "Slieve Binnian",
         "sector": "Binnian Lough Crag",
         "route": "Photon",
-        "grade": "E2",
+        "grade": "E2 5c",
         "year": 1991,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3386,7 +3486,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.976563145838539,
+          -5.976563145838545,
           54.15336561318526
         ]
       },
@@ -3394,7 +3494,7 @@
         "crag": "Slieve Binnian",
         "sector": "Binnian Lough Crag",
         "route": "Coyote",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1991,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3406,7 +3506,7 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.976563145838539,
+          -5.976563145838546,
           54.15336561318526
         ]
       },
@@ -3414,7 +3514,7 @@
         "crag": "Slieve Binnian",
         "sector": "Binnian Lough Crag",
         "route": "Missouri Breaks",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1991,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3494,7 +3594,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Lonesome Road",
-        "grade": "E2",
+        "grade": "E2 5c",
         "year": 1979,
         "climber1": "P.Douglas",
         "climber2": "",
@@ -3514,7 +3614,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Lonesome Road Direct",
-        "grade": "E3",
+        "grade": "E3 5c",
         "year": 2000,
         "climber1": "P.McArthur",
         "climber2": "R.Young",
@@ -3534,7 +3634,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Spooked",
-        "grade": "E6",
+        "grade": "E6 6b",
         "year": 2005,
         "climber1": "E.Cooper",
         "climber2": "J.Suffern",
@@ -3554,7 +3654,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Eye of the Tiger",
-        "grade": "E4",
+        "grade": "E4 6b",
         "year": 1988,
         "climber1": "E.Cooper",
         "climber2": "A.Moles",
@@ -3574,7 +3674,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Don't Fear the Reaper",
-        "grade": "E5",
+        "grade": "E5 6a",
         "year": 2004,
         "climber1": "E.Cooper",
         "climber2": "",
@@ -3594,7 +3694,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Zombie",
-        "grade": "E6",
+        "grade": "E6 6b",
         "year": 2004,
         "climber1": "E.Cooper",
         "climber2": "M.Rocks",
@@ -3614,7 +3714,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Zombie Right-hand",
-        "grade": "E4",
+        "grade": "E4 6b",
         "year": 2004,
         "climber1": "E.Cooper",
         "climber2": "M.Manson",
@@ -3634,7 +3734,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Refugee",
-        "grade": "E1",
+        "grade": "E1 5b",
         "year": 1990,
         "climber1": "I.Rea",
         "climber2": "R.Bankhead",
@@ -3654,7 +3754,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Pyralysis",
-        "grade": "HVS",
+        "grade": "HVS 5b",
         "year": 1955,
         "climber1": "P.Kenny",
         "climber2": "M.Monaghan",
@@ -3674,7 +3774,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Stepping Out",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1984,
         "climber1": "G.Murray",
         "climber2": "",
@@ -3694,7 +3794,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Stepping Out Direct",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1991,
         "climber1": "G.Murray",
         "climber2": "",
@@ -3714,7 +3814,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Nig Nog",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1953,
         "climber1": "P.Gribbon",
         "climber2": "",
@@ -3734,7 +3834,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Dead On",
-        "grade": "E3",
+        "grade": "E3 5a",
         "year": 1979,
         "climber1": "J.Ibbotson",
         "climber2": "R.Holt",
@@ -3754,7 +3854,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Braveheart",
-        "grade": "E3",
+        "grade": "E3 5c",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "T.Mercer",
@@ -3774,7 +3874,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Sequel",
-        "grade": "HS",
+        "grade": "HS 4c",
         "year": 1984,
         "climber1": "G.Murray",
         "climber2": "",
@@ -3794,7 +3894,7 @@
         "crag": "Wee Binnian",
         "sector": "Left Hand Side",
         "route": "Timewarp",
-        "grade": "HS",
+        "grade": "HS 4a",
         "year": 2003,
         "climber1": "N.Browne",
         "climber2": "",
@@ -3834,7 +3934,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Longstone Rib",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1990,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -3854,7 +3954,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Cithogue",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1954,
         "climber1": "S.Rothery",
         "climber2": "",
@@ -3914,7 +4014,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Daylight Robbery",
-        "grade": "S",
+        "grade": "S 4b",
         "year": 1990,
         "climber1": "G.Clarke",
         "climber2": "T.Wilson",
@@ -3954,7 +4054,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Twhit",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1900,
         "climber1": "Unknown",
         "climber2": "",
@@ -3974,7 +4074,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Daylight Dreams",
-        "grade": "E4",
+        "grade": "E4 6a",
         "year": 1995,
         "climber1": "G.Murray",
         "climber2": "T.Mercer",
@@ -3994,7 +4094,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Fatal Hesitation",
-        "grade": "E3",
+        "grade": "E3 6a",
         "year": 1986,
         "climber1": "G.Murray",
         "climber2": "T.Duffy",
@@ -4014,7 +4114,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Ghosts",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1990,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -4054,7 +4154,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Ivy Dyke",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1953,
         "climber1": "E.Innes",
         "climber2": "P.Gribbon",
@@ -4074,7 +4174,7 @@
         "crag": "Wee Binnian",
         "sector": "Right Hand Side",
         "route": "Ivy Dyke Eliminate",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1953,
         "climber1": "S.Billane",
         "climber2": "",
@@ -4094,7 +4194,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Green Slime",
-        "grade": "S",
+        "grade": "S 3c",
         "year": 1986,
         "climber1": "S.G.McNeill",
         "climber2": "T.J.Clegg",
@@ -4114,7 +4214,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Zydeco",
-        "grade": "S",
+        "grade": "S 4a",
         "year": 1986,
         "climber1": "K.Lindsay",
         "climber2": "J.Harrup",
@@ -4134,7 +4234,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Harp",
-        "grade": "HS",
+        "grade": "HS 4a",
         "year": 1985,
         "climber1": "J.Harrup",
         "climber2": "E.Johnston",
@@ -4154,7 +4254,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Genesis",
-        "grade": "HS",
+        "grade": "HS 4b",
         "year": 1985,
         "climber1": "E.Johnston",
         "climber2": "J.Harrup",
@@ -4174,7 +4274,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Gordon's",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1985,
         "climber1": "J.Harrup",
         "climber2": "E.Johnston",
@@ -4194,7 +4294,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Cream of the Barley",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1985,
         "climber1": "J.Harrup",
         "climber2": "E.Johnston",
@@ -4214,7 +4314,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Joint Effort",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1985,
         "climber1": "E.Johnston",
         "climber2": "J.Harrup",
@@ -4234,7 +4334,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Bacardi",
-        "grade": "E1",
+        "grade": "E1 5c",
         "year": 1985,
         "climber1": "J.Harrup",
         "climber2": "E.Johnston",
@@ -4254,7 +4354,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Swearbox",
-        "grade": "VS",
+        "grade": "VS 5a",
         "year": 1900,
         "climber1": "Unknown",
         "climber2": "",
@@ -4274,7 +4374,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "The White Bubble",
-        "grade": "E1",
+        "grade": "E1 5a",
         "year": 1986,
         "climber1": "I.Rea",
         "climber2": "M.Rea",
@@ -4294,7 +4394,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Gumboots",
-        "grade": "HVS",
+        "grade": "HVS 5a",
         "year": 1986,
         "climber1": "K.Lindsay",
         "climber2": "J.Harrup",
@@ -4314,7 +4414,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Zola's Return",
-        "grade": "VS",
+        "grade": "VS 4b",
         "year": 1985,
         "climber1": "J.Harrup",
         "climber2": "E.Johnston",
@@ -4334,7 +4434,7 @@
         "crag": "Buzzards Roost",
         "sector": "South West Wall",
         "route": "Exodus",
-        "grade": "VS",
+        "grade": "VS 4c",
         "year": 1900,
         "climber1": "Unknown",
         "climber2": "",
@@ -4354,7 +4454,7 @@
         "crag": "Buzzards Roost",
         "sector": "Main Face",
         "route": "Twist of Fate",
-        "grade": "E4",
+        "grade": "E4 6a",
         "year": 1989,
         "climber1": "E.Cooper",
         "climber2": "A.Moles",
@@ -4374,7 +4474,7 @@
         "crag": "Buzzards Roost",
         "sector": "Main Face",
         "route": "Handcart Avenue",
-        "grade": "E2",
+        "grade": "E2 5c",
         "year": 1983,
         "climber1": "C.Torrans",
         "climber2": "C.Torrans",
@@ -4414,7 +4514,7 @@
         "crag": "Buzzards Roost",
         "sector": "Main Face",
         "route": "The Sheugh Direct",
-        "grade": "VS",
+        "grade": "VS 4b",
         "year": 1980,
         "climber1": "D.Stelfox",
         "climber2": "P.Turley",
@@ -4434,7 +4534,7 @@
         "crag": "Buzzards Roost",
         "sector": "Main Face",
         "route": "The Spirit Level",
-        "grade": "E5",
+        "grade": "E5 6b",
         "year": 1994,
         "climber1": "E.Cooper",
         "climber2": "P.McArthur",
@@ -4454,7 +4554,7 @@
         "crag": "Buzzards Roost",
         "sector": "Main Face",
         "route": "Plumb Line",
-        "grade": "E6",
+        "grade": "E6 6b",
         "year": 2001,
         "climber1": "E.Cooper",
         "climber2": "M.Manson",
@@ -4474,7 +4574,7 @@
         "crag": "Buzzards Roost",
         "sector": "Main Face",
         "route": "War Music",
-        "grade": "E5",
+        "grade": "E5 6b",
         "year": 1994,
         "climber1": "E.Cooper",
         "climber2": "P.Nolan",
@@ -4494,10 +4594,2130 @@
         "crag": "Buzzards Roost",
         "sector": "Main Face",
         "route": "Divided Years",
-        "grade": "E9",
+        "grade": "E9 6c",
         "year": 1994,
         "climber1": "J.Dunne",
         "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979638329645882,
+          54.15714365746649
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "Main Face Right",
+        "route": "Strawberry Alarm Clock",
+        "grade": "E2 5c",
+        "year": 1964,
+        "climber1": "C.Torrans",
+        "climber2": "I.Rendle",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979638329645883,
+          54.15714365746649
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "Main Face Right",
+        "route": "Paddy-Lay-Back",
+        "grade": "S 3c",
+        "year": 1981,
+        "climber1": "I.Forsythe",
+        "climber2": "R.Cole",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979638329645884,
+          54.15714365746649
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "Main Face Right",
+        "route": "Rise and Shine",
+        "grade": "HS 4b",
+        "year": 1977,
+        "climber1": "D.Stelfox",
+        "climber2": "R.Lawson",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979638329645885,
+          54.15714365746649
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "Main Face Right",
+        "route": "VC Awarded",
+        "grade": "S",
+        "year": 1981,
+        "climber1": "R.Cole",
+        "climber2": "S.O'Kelly",
+        "climber3": "R.Merrick"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979638329645886,
+          54.15714365746649
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "Main Face Right",
+        "route": "Absent Friends",
+        "grade": "HS 4b",
+        "year": 1984,
+        "climber1": "S.McCoy",
+        "climber2": "I.Forsythe",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979638329645887,
+          54.15714365746649
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "Main Face Right",
+        "route": "Battle of the Bulge",
+        "grade": "HVS 5a",
+        "year": 1984,
+        "climber1": "R.McKee",
+        "climber2": "B.Ireland",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979638329645888,
+          54.15714365746649
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "Main Face Right",
+        "route": "Walk Tall",
+        "grade": "VS 4c",
+        "year": 1900,
+        "climber1": "Unknown",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.979638329645889,
+          54.15714365746649
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "Main Face Right",
+        "route": "Mithril",
+        "grade": "HS 4b",
+        "year": 1900,
+        "climber1": "A.Linton",
+        "climber2": "R.Rowe",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.98055533918013,
+          54.15773363813538
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "North West Face",
+        "route": "Hames Corner",
+        "grade": "VS 4c",
+        "year": 1984,
+        "climber1": "R.Cole",
+        "climber2": "W.Holmes",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.98055533918014,
+          54.15773363813538
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "North West Face",
+        "route": "Halleluiah I'm a Bum",
+        "grade": "E1 5b",
+        "year": 2002,
+        "climber1": "I.Rea",
+        "climber2": "K.O'Hara",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.98055533918015,
+          54.15773363813538
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "North West Face",
+        "route": "Hawk Walk",
+        "grade": "S 4a",
+        "year": 2005,
+        "climber1": "J.Kerr",
+        "climber2": "M.Henry",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.98055533918016,
+          54.15773363813538
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "North West Face",
+        "route": "Fallen Eagle",
+        "grade": "HVS 5b",
+        "year": 2002,
+        "climber1": "I.Rea",
+        "climber2": "K.O'Hara",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.98055533918017,
+          54.15773363813538
+        ]
+      },
+      "properties": {
+        "crag": "Buzzards Roost",
+        "sector": "North West Face",
+        "route": "Persuasion",
+        "grade": "HS 4b",
+        "year": 1981,
+        "climber1": "M.McNaught",
+        "climber2": "G.Henry",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9657173589465415,
+          54.14995537970323
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Main Face",
+        "route": "Snert",
+        "grade": "VS 4c",
+        "year": 1981,
+        "climber1": "R.Cole",
+        "climber2": "M.Mills",
+        "climber3": "I.Forsythe"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9657173589465415,
+          54.14995537970323
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Main Face",
+        "route": "Cack-Handed Crack",
+        "grade": "HVS 4c",
+        "year": 1900,
+        "climber1": "R.Cowan",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9657173589465415,
+          54.14995537970323
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Main Face",
+        "route": "Antagonism",
+        "grade": "VD",
+        "year": 1971,
+        "climber1": "J.Forsythe",
+        "climber2": "M.Curran",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9657173589465415,
+          54.14995537970323
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Main Face",
+        "route": "Amen Corner",
+        "grade": "E2 5c",
+        "year": 2005,
+        "climber1": "I.Rea",
+        "climber2": "E.Cooper",
+        "climber3": "P.Holmes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9657173589465415,
+          54.14995537970323
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Main Face",
+        "route": "Fallen Timbers",
+        "grade": "E3 6a",
+        "year": 2005,
+        "climber1": "I.Rea",
+        "climber2": "S.Ferris",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.965717358946542,
+          54.14995537970323
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Main Face",
+        "route": "Barrier",
+        "grade": "HS",
+        "year": 1959,
+        "climber1": "J.Firth",
+        "climber2": "J.Childs",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.965717358946542,
+          54.14995537970323
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Main Face",
+        "route": "Judas",
+        "grade": "VD A2",
+        "year": 1964,
+        "climber1": "D.Horne",
+        "climber2": "B.Rogers",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.965717358946542,
+          54.14995537970323
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Main Face",
+        "route": "Pomegranite",
+        "grade": "S",
+        "year": 1960,
+        "climber1": "B.White",
+        "climber2": "D.Naylor",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.966500563968599,
+          54.149477829962166
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Upper Wall",
+        "route": "Fissure Bob",
+        "grade": "S 4a",
+        "year": 1986,
+        "climber1": "R.Bankhead",
+        "climber2": "G.Murray",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9665005639686,
+          54.149477829962166
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Upper Wall",
+        "route": "Murray's Original Route",
+        "grade": "HVS 5b",
+        "year": 1986,
+        "climber1": "G.Murray",
+        "climber2": "R.Bankhead",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.966500563968601,
+          54.149477829962166
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Upper Wall",
+        "route": "Isolated Incidents",
+        "grade": "E2 5b",
+        "year": 1987,
+        "climber1": "E.Copper",
+        "climber2": "S.McCrory",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.966500563968602,
+          54.149477829962166
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Upper Wall",
+        "route": "Technical Ecstasy",
+        "grade": "E3 5c",
+        "year": 1989,
+        "climber1": "E.Cooper",
+        "climber2": "A.Moles",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.966500563968603,
+          54.149477829962166
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Upper Wall",
+        "route": "Champagne Cocktail",
+        "grade": "E2 6a",
+        "year": 1989,
+        "climber1": "A.Moles",
+        "climber2": "I.Moles",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.966500563968604,
+          54.149477829962166
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Upper Wall",
+        "route": "Grapefruit Moon",
+        "grade": "HVS 5a",
+        "year": 1996,
+        "climber1": "G.Murray",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.966500563968605,
+          54.149477829962166
+        ]
+      },
+      "properties": {
+        "crag": "Douglas Crag",
+        "sector": "Upper Wall",
+        "route": "Little Trip",
+        "grade": "HS 4b",
+        "year": 1996,
+        "climber1": "G.Murray",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.971618218773535,
+          54.153087592513884
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "South Buttress",
+        "route": "Damocles",
+        "grade": "VD",
+        "year": 1956,
+        "climber1": "R.Gribbon",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.971618218773536,
+          54.153087592513884
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "South Buttress",
+        "route": "Banner",
+        "grade": "VS 4b",
+        "year": 1983,
+        "climber1": "M.Curran",
+        "climber2": "I.Forsythe",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.971618218773537,
+          54.153087592513884
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "South Buttress",
+        "route": "Pinnacle Gully",
+        "grade": "VD",
+        "year": 1956,
+        "climber1": "H.C.Elliot",
+        "climber2": "M.McMurray",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.971618218773538,
+          54.153087592513884
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "South Buttress",
+        "route": "Bottleneck",
+        "grade": "S 4a",
+        "year": 1979,
+        "climber1": "I.Forsythe",
+        "climber2": "M.Curran",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972068829882115,
+          54.1540928663183
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Triangular Slab",
+        "route": "Wet Sunday Surprise",
+        "grade": "VD",
+        "year": 1988,
+        "climber1": "I.McClenaghan",
+        "climber2": "A.Blair",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972068829882116,
+          54.1540928663183
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Triangular Slab",
+        "route": "Nubian Sundance",
+        "grade": "E1 5b",
+        "year": 1988,
+        "climber1": "I.Rea",
+        "climber2": "P.Holmes",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972068829882117,
+          54.1540928663183
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Triangular Slab",
+        "route": "The Rainbow",
+        "grade": "E1 5b",
+        "year": 1986,
+        "climber1": "I.Rea",
+        "climber2": "M.Rea",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972068829882118,
+          54.1540928663183
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Triangular Slab",
+        "route": "Warrior",
+        "grade": "E2 5c",
+        "year": 1986,
+        "climber1": "P.Clerkin",
+        "climber2": "S.McCoy",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972068829882119,
+          54.1540928663183
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Triangular Slab",
+        "route": "Hercules",
+        "grade": "VS 4c",
+        "year": 1959,
+        "climber1": "I.Ferns",
+        "climber2": "P.Wilson",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.97206882988212,
+          54.1540928663183
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Triangular Slab",
+        "route": "Hercules Direct Finish",
+        "grade": "HVS 5a",
+        "year": 1989,
+        "climber1": "M.Rea",
+        "climber2": "R.Bankhead",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972068829882121,
+          54.1540928663183
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Triangular Slab",
+        "route": "Touch of Grey",
+        "grade": "HVS 5a",
+        "year": 1988,
+        "climber1": "I.Rea",
+        "climber2": "P.Holmes",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972369237287835,
+          54.15465832210461
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Rhombus Wall",
+        "route": "Nose to the Grindstone",
+        "grade": "E2 5c",
+        "year": 2008,
+        "climber1": "K.O'Hara",
+        "climber2": "I.Rea",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972369237287836,
+          54.15465832210461
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Rhombus Wall",
+        "route": "Eternal Return",
+        "grade": "E3 6a",
+        "year": 2008,
+        "climber1": "I.Rea",
+        "climber2": "K.O'Hara",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972948594427439,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "The Fox Club",
+        "grade": "VS 5a",
+        "year": 1988,
+        "climber1": "K.Quinn",
+        "climber2": "P.Clerkin",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.97294859442744,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "Plus Gas",
+        "grade": "HVS 5a",
+        "year": 1981,
+        "climber1": "R.Cole",
+        "climber2": "M.Mills",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972948594427441,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "Maverick",
+        "grade": "E3 5c",
+        "year": 1995,
+        "climber1": "G.Murray",
+        "climber2": "B.James",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972948594427442,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "Thunderbolt and Lightfoot",
+        "grade": "E1 5b",
+        "year": 1986,
+        "climber1": "S.McIlwaine",
+        "climber2": "B.Galway",
+        "climber3": "B.Stewart"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972948594427443,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "Chuckles",
+        "grade": "S",
+        "year": 1968,
+        "climber1": "W.Jenkins",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972948594427444,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "Bokies",
+        "grade": "S 3c",
+        "year": 1900,
+        "climber1": "C.Torrans",
+        "climber2": "D.Bruce",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972948594427445,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "Vertebrae",
+        "grade": "E1 5b",
+        "year": 1986,
+        "climber1": "P.Clerkin",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972948594427446,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "Life Line",
+        "grade": "VS 4b",
+        "year": 1986,
+        "climber1": "P.Clerkin",
+        "climber2": "S.McCoy",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.972948594427447,
+          54.15570125362508
+        ]
+      },
+      "properties": {
+        "crag": "Blue Lough Buttress",
+        "sector": "Waterspout Wall",
+        "route": "Diploma",
+        "grade": "VD",
+        "year": 1968,
+        "climber1": "C.Torrans",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.961828155899027,
+          54.15563607121289
+        ]
+      },
+      "properties": {
+        "crag": "Percy Bysshe",
+        "sector": "Main Wall",
+        "route": "Dandy",
+        "grade": "S",
+        "year": 2006,
+        "climber1": "I.Rea",
+        "climber2": "K.O'Hara",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.961828155899028,
+          54.15563607121289
+        ]
+      },
+      "properties": {
+        "crag": "Percy Bysshe",
+        "sector": "Main Wall",
+        "route": "Graffiti",
+        "grade": "E2 6a",
+        "year": 2006,
+        "climber1": "E.Cooper",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.961828155899029,
+          54.15563607121289
+        ]
+      },
+      "properties": {
+        "crag": "Percy Bysshe",
+        "sector": "Main Wall",
+        "route": "Hatchet Jack",
+        "grade": "E2 6a",
+        "year": 2008,
+        "climber1": "K.O'Hara",
+        "climber2": "I.Rea",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.96182815589903,
+          54.15563607121289
+        ]
+      },
+      "properties": {
+        "crag": "Percy Bysshe",
+        "sector": "Main Wall",
+        "route": "Burning Man",
+        "grade": "E2 5c",
+        "year": 2006,
+        "climber1": "I.Rea",
+        "climber2": "K.O'Hara",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.961828155899031,
+          54.15563607121289
+        ]
+      },
+      "properties": {
+        "crag": "Percy Bysshe",
+        "sector": "Main Wall",
+        "route": "Tom Joad",
+        "grade": "E2 6a",
+        "year": 2006,
+        "climber1": "I.Rea",
+        "climber2": "K.O'Hara",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.961828155899032,
+          54.15563607121289
+        ]
+      },
+      "properties": {
+        "crag": "Percy Bysshe",
+        "sector": "Main Wall",
+        "route": "Rumer",
+        "grade": "E2 5c",
+        "year": 2008,
+        "climber1": "K.O'Hara",
+        "climber2": "I.Rea",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.962327107203118,
+          54.16146844189687
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Slabs",
+        "route": "FM",
+        "grade": "VD",
+        "year": 1948,
+        "climber1": "R.R.Johnston",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.962327107203119,
+          54.16146844189687
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Slabs",
+        "route": "FM Direct Finish",
+        "grade": "S",
+        "year": 1900,
+        "climber1": "Unknown",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.96232710720312,
+          54.16146844189687
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Slabs",
+        "route": "Arcadia",
+        "grade": "VS 4c",
+        "year": 1995,
+        "climber1": "I.Rea",
+        "climber2": "M.Rea",
+        "climber3": "R.Bankhead"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.962327107203121,
+          54.16146844189687
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Slabs",
+        "route": "FO",
+        "grade": "S 3c",
+        "year": 1964,
+        "climber1": "C.Leeke",
+        "climber2": "I.Firth",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.962327107203122,
+          54.16146844189687
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Slabs",
+        "route": "Cherchez-La",
+        "grade": "S 4a",
+        "year": 1954,
+        "climber1": "P.Gribbon",
+        "climber2": "M.McMurray",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.962327107203123,
+          54.16146844189687
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Slabs",
+        "route": "Cherchez-La Girdle Traverse",
+        "grade": "S 4a",
+        "year": 1900,
+        "climber1": "Unknown",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.962327107203124,
+          54.16146844189687
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Slabs",
+        "route": "Upper FM",
+        "grade": "VD",
+        "year": 1948,
+        "climber1": "R.R.Johnston",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.963766855774642,
+          54.16587364394903
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Buttress",
+        "route": "Santa's Retreat",
+        "grade": "S 4a",
+        "year": 1988,
+        "climber1": "J.Keers",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.963766855774643,
+          54.16587364394903
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Buttress",
+        "route": "Apple Tree",
+        "grade": "HS 4b",
+        "year": 1988,
+        "climber1": "T.Johnston",
+        "climber2": "I.Keers",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.963766855774644,
+          54.16587364394903
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Buttress",
+        "route": "New Tree",
+        "grade": "HS 4b",
+        "year": 1988,
+        "climber1": "T.Johnston",
+        "climber2": "I.Keers",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.963766855774645,
+          54.16587364394903
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Buttress",
+        "route": "C.Line",
+        "grade": "E1 5b",
+        "year": 1988,
+        "climber1": "T.Johnston",
+        "climber2": "I.Keers",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.963766855774646,
+          54.16587364394903
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Buttress",
+        "route": "Warm Up Wash Out",
+        "grade": "HVS 5a",
+        "year": 1900,
+        "climber1": "Unknown",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.963766855774647,
+          54.16587364394903
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "The Buttress",
+        "route": "Anne Tree",
+        "grade": "S 4a",
+        "year": 1988,
+        "climber1": "T.Johnston",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.970817248932805,
+          54.16731694267713
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "Western Slopes",
+        "route": "The Bubble Reputation",
+        "grade": "VD",
+        "year": 1992,
+        "climber1": "I.Rea",
+        "climber2": "M.Rea",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.970817248932806,
+          54.16731694267713
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "Western Slopes",
+        "route": "Strawman",
+        "grade": "S 3c",
+        "year": 1992,
+        "climber1": "I.Rea",
+        "climber2": "M.Rea",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.970817248932807,
+          54.16731694267713
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "Western Slopes",
+        "route": "Titania",
+        "grade": "S 3c",
+        "year": 1992,
+        "climber1": "I.Rea",
+        "climber2": "M.Rea",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.970817248932808,
+          54.16731694267713
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Lamagan",
+        "sector": "Western Slopes",
+        "route": "Sundance",
+        "grade": "VS 4b",
+        "year": 1992,
+        "climber1": "I.Rea",
+        "climber2": "M.Rea",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789568,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Munching Mandy",
+        "grade": "S 4a",
+        "year": 1988,
+        "climber1": "W.Poots",
+        "climber2": "A.Walker",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789569,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Half Corner",
+        "grade": "VS 4b",
+        "year": 1978,
+        "climber1": "R.Cole",
+        "climber2": "M.Smith",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.95587951278957,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Krammed",
+        "grade": "E1 5a",
+        "year": 1900,
+        "climber1": "Unknown",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789571,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Kram",
+        "grade": "VS 4c",
+        "year": 1979,
+        "climber1": "R.Cole",
+        "climber2": "M.Smith",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789572,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Kram Left Hand",
+        "grade": "VS 4c",
+        "year": 1900,
+        "climber1": "M.Smith",
+        "climber2": "R.Cole",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789573,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Kissing Kerry",
+        "grade": "VS 4c",
+        "year": 1988,
+        "climber1": "W.Poots",
+        "climber2": "A.Walker",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789574,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Reeling Rosie",
+        "grade": "VS",
+        "year": 1988,
+        "climber1": "W.Poots",
+        "climber2": "A.Walker",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789575,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Not the Sea",
+        "grade": "VS",
+        "year": 1990,
+        "climber1": "K.Lindsay",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789576,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "New Decayed",
+        "grade": "S 4a",
+        "year": 1960,
+        "climber1": "B.White",
+        "climber2": "J.Challenor",
+        "climber3": "R.Nickels"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955879512789577,
+          54.16630903549036
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "Half Corner",
+        "route": "Left Arete",
+        "grade": "E2 5c",
+        "year": 1987,
+        "climber1": "C.Torrans",
+        "climber2": "D.O'Sullivan",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302162,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Tyro",
+        "grade": "VD",
+        "year": 1900,
+        "climber1": "B.White",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302163,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "North Wall",
+        "grade": "S 3c",
+        "year": 1900,
+        "climber1": "Unknown",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302164,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "First Corner",
+        "grade": "HS 4b",
+        "year": 1965,
+        "climber1": "F.Devlin",
+        "climber2": "J.McGrath",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302165,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Dot to Dot",
+        "grade": "E3 5c",
+        "year": 1989,
+        "climber1": "E.Cooper",
+        "climber2": "A.Moles",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302166,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Edge On",
+        "grade": "E3 6b",
+        "year": 1989,
+        "climber1": "E.Cooper",
+        "climber2": "A.Moles",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302167,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Meat Grinder",
+        "grade": "E2 5c",
+        "year": 1980,
+        "climber1": "P.Douglas",
+        "climber2": "M.Smith",
+        "climber3": "W.Holmes"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302168,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Salami Rushdie",
+        "grade": "E4 6b",
+        "year": 1989,
+        "climber1": "E.Cooper",
+        "climber2": "A.Moles",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302169,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "The Great Treacle Sponge Robbery",
+        "grade": "E1 5b",
+        "year": 1982,
+        "climber1": "E.Cooper",
+        "climber2": "M.Manson",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.95555655930217,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "The Great Treacle Sponge Robbery Direct Start",
+        "grade": "E3 6a",
+        "year": 1989,
+        "climber1": "E.Cooper",
+        "climber2": "A.Moles",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302171,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Overdue",
+        "grade": "E2 5c",
+        "year": 1979,
+        "climber1": "T.Irvine",
+        "climber2": "J.McGarry",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302172,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Just In Time",
+        "grade": "E4 6a",
+        "year": 2002,
+        "climber1": "E.Cooper",
+        "climber2": "M.Manson",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302173,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Dot's Delight",
+        "grade": "HVS 4c",
+        "year": 1964,
+        "climber1": "P.Kavanagh",
+        "climber2": "F.Devlin",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302174,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Dot's Delight Direct",
+        "grade": "E1 5a",
+        "year": 1983,
+        "climber1": "S.Reid",
+        "climber2": "M.Manson",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302175,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Physical Graffiti",
+        "grade": "E2 6a",
+        "year": 1986,
+        "climber1": "S.McIlwaine",
+        "climber2": "B.Stewart",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302176,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Dot's Very Direct",
+        "grade": "E4 6a",
+        "year": 2003,
+        "climber1": "E.Cooper",
+        "climber2": "A.Moles",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302177,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Altered Image",
+        "grade": "E3 6a",
+        "year": 1986,
+        "climber1": "P.N.Ward",
+        "climber2": "",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302178,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Choices",
+        "grade": "E5 6a",
+        "year": 2001,
+        "climber1": "E.Cooper",
+        "climber2": "P.McArthur",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302179,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Crystal Grinding",
+        "grade": "E5 6a",
+        "year": 2003,
+        "climber1": "E.Cooper",
+        "climber2": "M.Manson",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.95555655930218,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Wee Mark",
+        "grade": "HVS 5a",
+        "year": 1979,
+        "climber1": "M.Smith",
+        "climber2": "R.Cole",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302181,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Watersign",
+        "grade": "E2 5c",
+        "year": 1986,
+        "climber1": "J.McDonald",
+        "climber2": "P.Mallon",
+        "climber3": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302182,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "The We'an",
+        "grade": "E1 5a",
+        "year": 1986,
+        "climber1": "D.Stelfox",
+        "climber2": "G.Murray",
+        "climber3": "K.Quinn"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302183,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Fair Play To Mooney",
+        "grade": "E2 5c",
+        "year": 1984,
+        "climber1": "S.Reid",
+        "climber2": "J.McDonald",
+        "climber3": "P.Nolan"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.955556559302184,
+          54.16618654047697
+        ]
+      },
+      "properties": {
+        "crag": "Lower Cove",
+        "sector": "First Corner",
+        "route": "Maya",
+        "grade": "E3 5c",
+        "year": 1984,
+        "climber1": "S.Reid",
+        "climber2": "J.McDonald",
         "climber3": ""
       }
     }
