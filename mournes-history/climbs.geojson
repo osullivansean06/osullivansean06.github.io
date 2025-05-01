@@ -11382,6 +11382,951 @@
         "climber3": "",
         "source": "Rock Climbs in the Mourne Mountains (2010)"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.93979344948466,
+          54.182797511865935
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "West Face",
+        "route": "Harmony Constant",
+        "grade": "VS 4c",
+        "year": 1995,
+        "climber1": "I.Rea",
+        "climber2": "M.Rea",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.93979344948467,
+          54.182797511865935
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "West Face",
+        "route": "King of Joy",
+        "grade": "E1 5b",
+        "year": 1995,
+        "climber1": "I.Rea",
+        "climber2": "M.Rea",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.938800681839604,
+          54.18220685601569
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "Jobseekers Buttress",
+        "route": "Jobseekers Flake",
+        "grade": "S 4a",
+        "year": 2008,
+        "climber1": "D.Carden",
+        "climber2": "C.Keag",
+        "climber3": "E.Quinn",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.938800681839605,
+          54.18220685601569
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "Jobseekers Buttress",
+        "route": "Feeling the Crunch",
+        "grade": "VS 4c",
+        "year": 2008,
+        "climber1": "D.Carden",
+        "climber2": "",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.938800681839606,
+          54.18220685601569
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "Jobseekers Buttress",
+        "route": "Spongers Corner",
+        "grade": "S 4b",
+        "year": 2008,
+        "climber1": "D.Carden",
+        "climber2": "E.Quinn",
+        "climber3": "C.Keag",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.937270165053479,
+          54.181751754769714
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "Bareknuckle Buttress",
+        "route": "Archibald",
+        "grade": "HS 4b",
+        "year": 2008,
+        "climber1": "D.Carden",
+        "climber2": "A.Carden",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.93727016505348,
+          54.181751754769714
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "Bareknuckle Buttress",
+        "route": "Born Again",
+        "grade": "S 4b",
+        "year": 2008,
+        "climber1": "D.Carden",
+        "climber2": "A.Carden",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.937270165053481,
+          54.181751754769714
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "Bareknuckle Buttress",
+        "route": "Bare Knuckle Boxer",
+        "grade": "HVS 5a",
+        "year": 2008,
+        "climber1": "D.Carden",
+        "climber2": "A.Carden",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.934099146077821,
+          54.189220866837104
+        ]
+      },
+      "properties": {
+        "crag": "Slieve Commedagh",
+        "sector": "East Slope",
+        "route": "Klondyke Corner",
+        "grade": "S 4a",
+        "year": 1985,
+        "climber1": "M.McNaught",
+        "climber2": "G.Murray",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "The Leech",
+        "grade": "E5 6c",
+        "year": 2005,
+        "climber1": "E.Cooper",
+        "climber2": "J.Suffern",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "The Thieving Magpie",
+        "grade": "E2 5c",
+        "year": 1985,
+        "climber1": "E.Cooper",
+        "climber2": "T.Cooper",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "No Guts No Glory",
+        "grade": "VS 4c",
+        "year": 1985,
+        "climber1": "P.Holmes",
+        "climber2": "G.Murray",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "Precipitation",
+        "grade": "VS 4b",
+        "year": 1964,
+        "climber1": "I.Brown",
+        "climber2": "C.Moore",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "Bit Part",
+        "grade": "E1 5b",
+        "year": 1985,
+        "climber1": "I.Rea",
+        "climber2": "G.Murray",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "Piton Crack",
+        "grade": "S 4a",
+        "year": 1950,
+        "climber1": "M.McMurray",
+        "climber2": "W.B.Gibson",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "Decadent Days",
+        "grade": "E1 5b",
+        "year": 1985,
+        "climber1": "G.Murray",
+        "climber2": "I.Rea",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "Rowan Tree",
+        "grade": "VD",
+        "year": 1947,
+        "climber1": "R.R.Johnston",
+        "climber2": "B.Blakie",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811000000001,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "Resonant Flakes",
+        "grade": "VD",
+        "year": 1900,
+        "climber1": "Unknown",
+        "climber2": "",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811000000001,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "Puppet",
+        "grade": "S 4a",
+        "year": 1967,
+        "climber1": "T.Hawkins",
+        "climber2": "M.Hawkins",
+        "climber3": "D.Murray",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922811000000001,
+          54.188425
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Lower Cliffs",
+        "route": "Z Route Direct",
+        "grade": "S 4a",
+        "year": 1949,
+        "climber1": "M.McMurray",
+        "climber2": "B.Blakie",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922543,
+          54.187999
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Upper Cliffs Left",
+        "route": "A Bit on the Side",
+        "grade": "S 4a",
+        "year": 1977,
+        "climber1": "J.Forsythe",
+        "climber2": "A.McDonald",
+        "climber3": "M.Mills",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922543,
+          54.187999
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Upper Cliffs Left",
+        "route": "Muffled Oaths",
+        "grade": "S 3c",
+        "year": 1978,
+        "climber1": "J.Forsythe",
+        "climber2": "R.Cole",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922543,
+          54.187999
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Upper Cliffs Left",
+        "route": "Arete Oriental",
+        "grade": "S 3c",
+        "year": 1954,
+        "climber1": "D.Sloan",
+        "climber2": "P.Gribbon",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922543,
+          54.187999
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Upper Cliffs Left",
+        "route": "Joy",
+        "grade": "S 3c",
+        "year": 1966,
+        "climber1": "C.Moore",
+        "climber2": "B.Blakie",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922543,
+          54.187999
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Upper Cliffs Left",
+        "route": "Double X",
+        "grade": "S 4a",
+        "year": 1964,
+        "climber1": "I.Brown",
+        "climber2": "H.Porter",
+        "climber3": "B.McCormick",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.922543,
+          54.187999
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Upper Cliffs Left",
+        "route": "The Trap",
+        "grade": "VD",
+        "year": 1947,
+        "climber1": "R.R.Johnston",
+        "climber2": "G.Maxwell",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Stratocumulus",
+        "grade": "HS 4b",
+        "year": 1964,
+        "climber1": "G.Earnshaw",
+        "climber2": "C.Moore",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Parade",
+        "grade": "HS 4a",
+        "year": 1964,
+        "climber1": "C.Moore",
+        "climber2": "",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Rolling Thunder",
+        "grade": "HVS 5a",
+        "year": 1985,
+        "climber1": "I.Rea",
+        "climber2": "",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Incandescent Blue",
+        "grade": "VS 4c",
+        "year": 1985,
+        "climber1": "G.Murray",
+        "climber2": "A.Carden",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Chimney Wall",
+        "grade": "D",
+        "year": 1948,
+        "climber1": "M.McMurray",
+        "climber2": "",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Raven's Gully Route",
+        "grade": "D",
+        "year": 1936,
+        "climber1": "F.Martin",
+        "climber2": "",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Lichen",
+        "grade": "HS 4b",
+        "year": 1963,
+        "climber1": "J.Brown",
+        "climber2": "F.Devlin",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Raven's Nest",
+        "grade": "HS 4b",
+        "year": 1949,
+        "climber1": "R.R.Johnston",
+        "climber2": "R.Galway",
+        "climber3": "D.McKee",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Late Opening",
+        "grade": "VS 5a",
+        "year": 1984,
+        "climber1": "P.Clerkin",
+        "climber2": "",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Ravens Gully",
+        "route": "Raven Lunatic",
+        "grade": "HVS 5a",
+        "year": 1981,
+        "climber1": "A/Carden",
+        "climber2": "B.McBurney",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "Determinate",
+        "grade": "VS 4c",
+        "year": 1971,
+        "climber1": "L.Griffin",
+        "climber2": "R.Merrick",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "Big Wig",
+        "grade": "E2 5c",
+        "year": 1963,
+        "climber1": "M.Smith",
+        "climber2": "R.Cole",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "4th Generation Youth",
+        "grade": "E2 5c",
+        "year": 2005,
+        "climber1": "P.Swail",
+        "climber2": "S.Ferris",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000001,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "No Quarter",
+        "grade": "E1 5b",
+        "year": 1988,
+        "climber1": "I.Rea",
+        "climber2": "P.Holmes",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000002,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "Severed Finger",
+        "grade": "E1 5b",
+        "year": 1988,
+        "climber1": "I.Rea",
+        "climber2": "P.Holmes",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000002,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "Justin Time",
+        "grade": "VS 4c",
+        "year": 1979,
+        "climber1": "R.Cole",
+        "climber2": "M.Smith",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000002,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "Bismuth",
+        "grade": "HS 4b",
+        "year": 1962,
+        "climber1": "G.Earnshaw",
+        "climber2": "B.Owens",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000002,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "Mercy Street",
+        "grade": "E2 6a",
+        "year": 1986,
+        "climber1": "S.McIlwaine",
+        "climber2": "B.Stewart",
+        "climber3": "",
+        "source": ""
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.923165000000002,
+          54.187886
+        ]
+      },
+      "properties": {
+        "crag": "Eagle Rocks",
+        "sector": "Diamond Buttress",
+        "route": "What's the Story",
+        "grade": "E1 5b",
+        "year": 2007,
+        "climber1": "C.Hiller",
+        "climber2": "R.Bell",
+        "climber3": "A.Marshall",
+        "source": ""
+      }
     }
   ]
 }
