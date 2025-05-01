@@ -133,14 +133,17 @@
             fillColor: color,
             fillOpacity: 0.7
           }).bindPopup(`
-            <strong>${props.route}</strong><br>
-            Leader: ${props.climber1}<br>
-            Second: ${props.climber2}<br>
-            Third: ${props.climber3}<br>
+            <strong><h2>${props.route}</h2></strong>
+            <h3>
+            ${props.climber1 ? `${props.climber1}` : ''}
+            ${props.climber2 ? `, ${props.climber2}` : ''}
+            ${props.climber3 ? `, ${props.climber3}` : ''}
+            </h3>
             Year: ${props.year}<br>
             Grade: ${props.grade}<br>
             Crag: ${props.crag}<br>
-            Sector: ${props.sector}
+            Sector: ${props.sector}<br>
+            Source: ${props.source}
           `);
           marker.feature = feature;
           markers.push(marker);

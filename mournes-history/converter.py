@@ -15,9 +15,10 @@ def row_to_feature(row):
             "route": row['Route'],
             "grade": row['Grade'],
             "year": int(row['Year']),
-            "climber1": row['Climber1'],
-            "climber2": row.get('Climber2', ''),
-            "climber3": row.get('Climber3', '')
+            "climber1": "" if pd.isna(row['Climber1']) else row['Climber1'],
+            "climber2": "" if pd.isna(row['Climber2']) else row['Climber2'],
+            "climber3": "" if pd.isna(row['Climber3']) else row['Climber3'],
+            "source": "" if pd.isna(row['Source']) else row['Source']
         }
         return {
             "type": "Feature",
