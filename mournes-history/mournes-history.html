@@ -5,46 +5,27 @@
   <meta charset="utf-8" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  
-  <style>
-    #map { width: 100%; height: 600px; }
-
-    .legend {
-      background: white;
-      line-height: 1.4em;
-      padding: 10px;
-      font-size: 12px;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.3);
-    }
-
-    .legend div {
-      display: flex;
-      align-items: center;
-      margin-bottom: 4px;
-    }
-
-    .legend-color {
-      width: 16px;
-      height: 16px;
-      margin-right: 8px;
-      border-radius: 50%;
-      border: 1px solid #333;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <h2>Mourne Mountain Climbing History Map</h2>
 
   <!-- Controls -->
-  <label for="year-slider">Select Year: </label>
-  <input type="range" id="year-slider" min="1900" max="2025" step="1" value="1900">
-  <span id="selected-year">1900</span>
-
-  <label for="climber-filter">Filter by Climber: </label>
-  <select id="climber-filter">
-    <option value="">All Climbers</option>
-  </select>
+  <div class="controls">
+    <label for="year-slider">Year:</label>
+    <div class="year-controls">
+      <button id="decrease-year">−</button>
+      <input type="range" id="year-slider" min="1900" max="2025" value="2025" />
+      <button id="increase-year">+</button>
+      <span id="selected-year">2025</span>
+    </div>
+  
+    <!-- Optional: Existing dropdowns or filters -->
+    <label for="climber-filter">Filter by Climber: </label>
+    <select id="climber-filter">
+      <option value="">All Climbers</option>
+    </select>
+  </div>
 
   <!-- Map -->
   <div id="map"></div>
@@ -76,144 +57,6 @@
     <div><span class="legend-color" style="background: black"></span>Unknown</div>
   </div> -->
 
-  <script>
-    const map = L.map('map').setView([54.2, -6.0], 11);
-
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      maxZoom: 18,
-      attribution: '&copy; OpenStreetMap contributors'
-    }).addTo(map);
-
-    let markers = [];
-    let allClimbers = new Set();
-
-    // Grade to color mapping
-    const gradeOrder = [
-      "M", "D", "VD", "HVD", "S", "HS", "VS", "HVS",     // Green
-      "E1", "E2", "E3", "E4",                            // Orange
-      "E5", "E6", "E7", "E8", "E9", "E10", "E11", "E12"  // Red
-    ];
-
-    function getGradeColor(grade) {
-      if (!grade) return "#000000";
-      const clean = grade.toUpperCase().split(" ")[0].trim(); // Handle grades like "E2 5b"
-      const index = gradeOrder.indexOf(clean);
-      if (index === -1) return "#000000";
-
-      if (index <= 7) {
-        const greenLevel = Math.floor(255 - (index / 7) * 120);
-        return `rgb(0, ${greenLevel}, 0)`;
-      } else if (index <= 11) {
-        const orangeLevel = Math.floor(150 + ((index - 8) / 3) * 100);
-        return `rgb(${orangeLevel}, 100, 0)`;
-      } else {
-        const redLevel = Math.floor(180 + ((index - 12) / 8) * 75);
-        return `rgb(${Math.min(redLevel, 255)}, 0, 0)`;
-      }
-    }
-
-    function updateClimbTable(filteredMarkers) {
-      
-      const tableBody = document.querySelector("#climb-table tbody");
-      tableBody.innerHTML = "";
-      filteredMarkers.forEach(marker => {
-        const props = marker.feature.properties;
-        const row = document.createElement('tr');
-        row.innerHTML = `
-          <td>${props.route}</td>
-          <td>${props.climber1 ? `${props.climber1}` : ''}
-            ${props.climber2 ? `, ${props.climber2}` : ''}
-            ${props.climber3 ? `, ${props.climber3}` : ''}</td>
-          <td>${props.year}</td>
-          <td>${props.grade}</td>
-          <td>${props.crag}</td>
-          <td>${props.sector}</td>
-          <td>${props.source}</td>
-        `;
-        tableBody.appendChild(row);
-      });
-    }
-
-    function filterClimbs(year, climber) {
-      const filtered = markers.filter(marker => {
-        const props = marker.feature.properties;
-        const matchYear = year ? props.year === parseInt(year) : true;
-        const matchClimber = climber
-          ? [props.climber1, props.climber2, props.climber3].includes(climber)
-          : true;
-        return matchYear && matchClimber;
-      });
-
-      markers.forEach(marker => map.removeLayer(marker));
-      filtered.forEach(marker => map.addLayer(marker));
-      updateClimbTable(filtered);
-    }
-
-    fetch('climbs.geojson')
-      .then(response => response.json())
-      .then(data => {
-        console.log("✅ GeoJSON loaded:", data);
-
-        data.features.forEach(feature => {
-          const jitter = () => Math.random() * (0.00009 - 0.000001) + 0.000001;
-
-          const latlng = L.latLng(
-            feature.geometry.coordinates[1] + jitter(),
-            feature.geometry.coordinates[0] + jitter()
-          );
-
-          const props = feature.properties;
-          [props.climber1, props.climber2, props.climber3].forEach(c => {
-            if (c && c.trim()) allClimbers.add(c.trim());
-          });
-
-          const color = getGradeColor(props.grade);
-
-          const marker = L.circleMarker(latlng, {
-            radius: 6,
-            color: '#003300',
-            fillColor: color,
-            fillOpacity: 0.7
-          }).bindPopup(`
-            <strong><h2>${props.route}</h2></strong>
-            <h3>
-            ${props.climber1 ? `${props.climber1}` : ''}
-            ${props.climber2 ? `, ${props.climber2}` : ''}
-            ${props.climber3 ? `, ${props.climber3}` : ''}
-            </h3>
-            Year: ${props.year}<br>
-            Grade: ${props.grade}<br>
-            Crag: ${props.crag}<br>
-            Sector: ${props.sector}<br>
-            Source: ${props.source}
-          `);
-          marker.feature = feature;
-          markers.push(marker);
-        });
-
-        const climberSelect = document.getElementById('climber-filter');
-        Array.from(allClimbers).sort().forEach(climber => {
-          const option = document.createElement('option');
-          option.value = climber;
-          option.textContent = climber;
-          climberSelect.appendChild(option);
-        });
-
-        // Initial filter
-        filterClimbs(document.getElementById('year-slider').value, '');
-
-        document.getElementById('year-slider').addEventListener('input', function () {
-          document.getElementById('selected-year').textContent = this.value;
-          filterClimbs(this.value, climberSelect.value);
-        });
-
-        climberSelect.addEventListener('change', function () {
-          filterClimbs(document.getElementById('year-slider').value, this.value);
-        });
-      })
-      .catch(err => {
-        console.error("🔥 Error loading or processing data:", err);
-      });
-  </script>
+  <script src="app.js"></script>
 </body>
 </html>
