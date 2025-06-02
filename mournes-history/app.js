@@ -78,7 +78,7 @@ const map = L.map('map').setView([54.188, -6.05], 13); // Centered on Ben Crom
           const climbers = [props.climber1, props.climber2, props.climber3].filter(c => c).join('<br>');
 
           const marker = L.circleMarker(latlng, {
-            radius: 6,
+            radius: 12,
             color: getColorByGrade(props.grade),
             fillColor: getColorByGrade(props.grade),
             fillOpacity: 0.7
