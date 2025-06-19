@@ -5,7 +5,7 @@ from datetime import date, timedelta
 
 PUZZLE_SIZE = 9
 MIN_WORD_LENGTH = 3
-WORDLIST_PATH = "4LetterWords.txt"
+WORDLIST_PATH = "words.txt"
 PUZZLE_OUTPUT = "puzzles.json"
 DAYS_AHEAD = 30  # Number of days to generate puzzles for
 
@@ -22,12 +22,9 @@ def load_words(min_length=MIN_WORD_LENGTH):
 def valid_words(wordlist, letters):
     valid = []
     for word in wordlist:
-        temp_letters = list(letters)
         is_valid = True
         for char in word:
-            if char in temp_letters:
-                temp_letters.remove(char)
-            else:
+            if char not in letters:
                 is_valid = False
                 break
         if is_valid:
