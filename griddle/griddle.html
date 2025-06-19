@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet" />
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>griddle</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>griddle</h1>
+    <div id="score">score: 0</div>
+  </header>
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <h2>welcome to <b>griddle</b></h2>
+      <p>find as many 4+ length words as you can using the letters in the grid.<br>
+      each word scores points equal to its length. good luck!</p>
+      <button id="closeModal">Got it!</button>
+    </div>
+  </div>
+  <main>
+    <div id="grid" class="grid"></div>
+    <div id="current-word"></div>
+    <button id="reset">clear</button>
+    <details open>
+      <summary>words found</summary>
+      <ul id="found-words"></ul>
+    </details>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
