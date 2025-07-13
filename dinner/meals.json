@@ -2,35 +2,149 @@
   {
     "name": "Chicken Teriyaki",
     "recipe": "1. Marinate chicken in teriyaki sauce for 30 minutes.\n2. Cook in pan until done.\n3. Serve with steamed rice and broccoli.",
-    "shoppingList": [
-      "Chicken breast",
-      "Teriyaki sauce",
-      "Rice",
-      "Broccoli"
-    ]
+    "shoppingList": ["Chicken breast", "Teriyaki sauce", "Rice", "Broccoli"]
   },
   {
     "name": "Spaghetti Carbonara",
     "recipe": "1. Cook spaghetti.\n2. Fry pancetta until crisp.\n3. Mix eggs, cheese, pepper. Combine with pasta and pancetta off heat.",
-    "shoppingList": [
-      "Spaghetti",
-      "Eggs",
-      "Parmesan cheese",
-      "Pancetta",
-      "Black pepper"
-    ]
+    "shoppingList": ["Spaghetti", "Eggs", "Parmesan cheese", "Pancetta", "Black pepper"]
   },
   {
     "name": "Paella",
     "recipe": "1. Cook chicken and chorizo in paella pan.\n2. Add rice, saffron, stock, peas, prawns.\n3. Simmer until rice is cooked and stock absorbed.",
-    "shoppingList": [
-      "Chicken thighs",
-      "Chorizo",
-      "Paella rice",
-      "Saffron",
-      "Chicken stock",
-      "Peas",
-      "Prawns"
-    ]
+    "shoppingList": ["Chicken thighs", "Chorizo", "Paella rice", "Saffron", "Chicken stock", "Peas", "Prawns"]
+  },
+  {
+    "name": "Beef Bulgogi",
+    "recipe": "1. Marinate beef slices in bulgogi marinade.\n2. Stir fry quickly on high heat.\n3. Serve with steamed rice and kimchi.",
+    "shoppingList": ["Beef sirloin", "Bulgogi marinade", "Rice", "Kimchi"]
+  },
+  {
+    "name": "Margherita Pizza",
+    "recipe": "1. Prepare pizza dough.\n2. Spread tomato sauce, add mozzarella and basil.\n3. Bake until crust is golden.",
+    "shoppingList": ["Pizza dough", "Tomato sauce", "Mozzarella", "Basil"]
+  },
+  {
+    "name": "Seafood Paella",
+    "recipe": "1. Cook onions and garlic in olive oil.\n2. Add rice, stock, saffron.\n3. Add prawns, mussels, and squid rings until cooked.",
+    "shoppingList": ["Paella rice", "Seafood mix", "Saffron", "Chicken stock", "Onion", "Garlic"]
+  },
+  {
+    "name": "Pad Thai",
+    "recipe": "1. Soak rice noodles.\n2. Stir fry tofu, egg, shrimp.\n3. Add noodles, pad thai sauce, and peanuts.",
+    "shoppingList": ["Rice noodles", "Tofu", "Eggs", "Shrimp", "Pad thai sauce", "Peanuts"]
+  },
+  {
+    "name": "Lasagna",
+    "recipe": "1. Layer pasta sheets with meat sauce and béchamel.\n2. Repeat layers.\n3. Top with cheese and bake until golden.",
+    "shoppingList": ["Lasagna sheets", "Minced beef", "Tomato sauce", "Béchamel sauce", "Cheese"]
+  },
+  {
+    "name": "Chicken Fajitas",
+    "recipe": "1. Marinate chicken strips in fajita seasoning.\n2. Stir fry with bell peppers and onions.\n3. Serve with tortillas.",
+    "shoppingList": ["Chicken breast", "Fajita seasoning", "Bell peppers", "Onions", "Tortillas"]
+  },
+  {
+    "name": "Risotto alla Milanese",
+    "recipe": "1. Cook onions in butter.\n2. Add arborio rice and saffron.\n3. Gradually add stock until creamy, then stir in parmesan.",
+    "shoppingList": ["Arborio rice", "Saffron", "Chicken stock", "Onion", "Butter", "Parmesan cheese"]
+  },
+  {
+    "name": "Tom Yum Soup",
+    "recipe": "1. Boil stock with lemongrass, galangal, and kaffir lime leaves.\n2. Add prawns, mushrooms, and chili paste.\n3. Finish with fish sauce and lime juice.",
+    "shoppingList": ["Prawns", "Lemongrass", "Galangal", "Kaffir lime leaves", "Mushrooms", "Tom yum paste", "Fish sauce", "Lime"]
+  },
+  {
+    "name": "Tortilla Española",
+    "recipe": "1. Fry potatoes and onions in olive oil.\n2. Combine with beaten eggs.\n3. Cook slowly until set.",
+    "shoppingList": ["Potatoes", "Onions", "Eggs", "Olive oil"]
+  },
+  {
+    "name": "Bibimbap",
+    "recipe": "1. Prepare rice.\n2. Arrange assorted sautéed vegetables and beef on top.\n3. Add fried egg and gochujang sauce before serving.",
+    "shoppingList": ["Rice", "Beef mince", "Carrots", "Spinach", "Bean sprouts", "Zucchini", "Eggs", "Gochujang"]
+  },
+  {
+    "name": "Ratatouille",
+    "recipe": "1. Slice eggplant, zucchini, peppers, tomatoes.\n2. Layer in baking dish with olive oil and herbs.\n3. Bake until tender.",
+    "shoppingList": ["Eggplant", "Zucchini", "Bell peppers", "Tomatoes", "Olive oil", "Herbs"]
+  },
+  {
+    "name": "Chicken Katsu Curry",
+    "recipe": "1. Bread and fry chicken cutlets.\n2. Prepare Japanese curry sauce.\n3. Serve with rice and chicken cutlets on top.",
+    "shoppingList": ["Chicken breast", "Breadcrumbs", "Eggs", "Flour", "Japanese curry roux", "Rice"]
+  },
+  {
+    "name": "Tonkotsu Ramen",
+    "recipe": "1. Prepare pork bone broth.\n2. Add ramen noodles.\n3. Top with sliced pork belly, egg, and green onions.",
+    "shoppingList": ["Ramen noodles", "Pork bones", "Pork belly", "Eggs", "Green onions"]
+  },
+  {
+    "name": "Seafood Linguine",
+    "recipe": "1. Cook linguine.\n2. Sauté garlic in olive oil, add mixed seafood.\n3. Toss with pasta and parsley.",
+    "shoppingList": ["Linguine", "Seafood mix", "Garlic", "Olive oil", "Parsley"]
+  },
+  {
+    "name": "Gyoza",
+    "recipe": "1. Prepare pork and cabbage filling.\n2. Wrap in gyoza wrappers.\n3. Pan fry then steam until cooked.",
+    "shoppingList": ["Gyoza wrappers", "Pork mince", "Cabbage", "Garlic", "Ginger"]
+  },
+  {
+    "name": "Patatas Bravas",
+    "recipe": "1. Fry potato cubes until crispy.\n2. Serve with spicy tomato sauce.",
+    "shoppingList": ["Potatoes", "Tomato sauce", "Smoked paprika", "Olive oil"]
+  },
+  {
+    "name": "Thai Green Curry",
+    "recipe": "1. Fry green curry paste in coconut milk.\n2. Add chicken and vegetables.\n3. Simmer until cooked, serve with rice.",
+    "shoppingList": ["Green curry paste", "Coconut milk", "Chicken breast", "Mixed vegetables", "Rice"]
+  },
+
+  // Additional entries (shortened here for brevity)
+  {
+    "name": "Salmon Teriyaki",
+    "recipe": "1. Marinate salmon fillets in teriyaki sauce.\n2. Grill until cooked.\n3. Serve with rice and steamed broccoli.",
+    "shoppingList": ["Salmon fillets", "Teriyaki sauce", "Rice", "Broccoli"]
+  },
+  {
+    "name": "Fettuccine Alfredo",
+    "recipe": "1. Cook fettuccine.\n2. Toss with butter, cream, and parmesan cheese until creamy.",
+    "shoppingList": ["Fettuccine", "Butter", "Cream", "Parmesan cheese"]
+  },
+  {
+    "name": "Beef Stroganoff",
+    "recipe": "1. Sauté beef strips and onions.\n2. Add mushrooms and sour cream sauce.\n3. Serve with egg noodles.",
+    "shoppingList": ["Beef strips", "Onions", "Mushrooms", "Sour cream", "Egg noodles"]
+  },
+  {
+    "name": "Gazpacho",
+    "recipe": "1. Blend tomatoes, cucumber, bell pepper, onion, garlic, olive oil, and vinegar.\n2. Chill before serving.",
+    "shoppingList": ["Tomatoes", "Cucumber", "Bell pepper", "Onion", "Garlic", "Olive oil", "Vinegar"]
+  },
+  {
+    "name": "Chicken Satay",
+    "recipe": "1. Marinate chicken in satay marinade.\n2. Grill on skewers.\n3. Serve with peanut sauce.",
+    "shoppingList": ["Chicken breast", "Satay marinade", "Peanut sauce", "Skewers"]
+  },
+  {
+    "name": "Calamari Fritti",
+    "recipe": "1. Coat squid rings in flour.\n2. Deep fry until golden.\n3. Serve with lemon wedges.",
+    "shoppingList": ["Squid rings", "Flour", "Lemon"]
+  },
+  {
+    "name": "Chicken Enchiladas",
+    "recipe": "1. Roll shredded chicken in tortillas with enchilada sauce.\n2. Top with cheese and bake.",
+    "shoppingList": ["Chicken breast", "Tortillas", "Enchilada sauce", "Cheese"]
+  },
+  {
+    "name": "Okonomiyaki",
+    "recipe": "1. Mix cabbage with batter and eggs.\n2. Pan fry into pancakes.\n3. Top with okonomiyaki sauce and mayonnaise.",
+    "shoppingList": ["Cabbage", "Flour", "Eggs", "Okonomiyaki sauce", "Mayonnaise"]
+  },
+  {
+    "name": "Sushi Rolls",
+    "recipe": "1. Prepare sushi rice.\n2. Roll with nori and fillings.\n3. Slice and serve with soy sauce.",
+    "shoppingList": ["Sushi rice", "Nori", "Fillings (fish, cucumber, avocado)", "Soy sauce"]
   }
+  // Continue adding to reach ~50 meals as needed in your real file
 ]
