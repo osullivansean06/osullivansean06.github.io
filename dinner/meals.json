@@ -1,0 +1,36 @@
+[
+  {
+    "name": "Chicken Teriyaki",
+    "recipe": "1. Marinate chicken in teriyaki sauce for 30 minutes.\n2. Cook in pan until done.\n3. Serve with steamed rice and broccoli.",
+    "shoppingList": [
+      "Chicken breast",
+      "Teriyaki sauce",
+      "Rice",
+      "Broccoli"
+    ]
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "recipe": "1. Cook spaghetti.\n2. Fry pancetta until crisp.\n3. Mix eggs, cheese, pepper. Combine with pasta and pancetta off heat.",
+    "shoppingList": [
+      "Spaghetti",
+      "Eggs",
+      "Parmesan cheese",
+      "Pancetta",
+      "Black pepper"
+    ]
+  },
+  {
+    "name": "Paella",
+    "recipe": "1. Cook chicken and chorizo in paella pan.\n2. Add rice, saffron, stock, peas, prawns.\n3. Simmer until rice is cooked and stock absorbed.",
+    "shoppingList": [
+      "Chicken thighs",
+      "Chorizo",
+      "Paella rice",
+      "Saffron",
+      "Chicken stock",
+      "Peas",
+      "Prawns"
+    ]
+  }
+]
