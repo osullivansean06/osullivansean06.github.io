@@ -1,0 +1,129 @@
+const grid = document.getElementById('grid');
+const scoresBtn = document.getElementById('scoresBtn');
+const artifactsBtn = document.getElementById('artifactsBtn');
+const scoresModal = document.getElementById('scoresModal');
+const artifactsModal = document.getElementById('artifactsModal');
+const scoresList = document.getElementById('scoresList');
+const highscoreEl = document.getElementById('highscore');
+const artifactsList = document.getElementById('artifactsList');
+
+const blockRarity = {
+  dirt: 50,
+  rock: 30,
+  gold: 15,
+  diamond: 4,
+  artifact: 1
+};
+
+const blockTypes = {
+  dirt: { clicks: 1, colorClass: 'dirt' },
+  rock: { clicks: 2, colorClass: 'rock' },
+  gold: { clicks: 1, colorClass: 'gold' },
+  diamond: { clicks: 5, colorClass: 'diamond' },
+  artifact: { clicks: 1, colorClass: 'artifact' }
+};
+
+let today = new Date().toISOString().slice(0,10);
+let scores = JSON.parse(localStorage.getItem('bb_scores')) || [];
+let todayScore = scores.find(s => s.date === today);
+if (!todayScore) {
+  todayScore = { date: today, totalScore: 0, blockCounts: {} };
+  scores.unshift(todayScore);
+  scores = scores.slice(0,5);
+}
+let highscore = JSON.parse(localStorage.getItem('bb_highscore')) || { score: 0, date: "" };
+let artifacts = JSON.parse(localStorage.getItem('bb_artifacts')) || [];
+
+function saveData() {
+  localStorage.setItem('bb_scores', JSON.stringify(scores));
+  localStorage.setItem('bb_highscore', JSON.stringify(highscore));
+  localStorage.setItem('bb_artifacts', JSON.stringify(artifacts));
+}
+
+function weightedRandom() {
+  let total = Object.values(blockRarity).reduce((a,b)=>a+b);
+  let rand = Math.random()*total;
+  let sum = 0;
+  for (let type in blockRarity) {
+    sum += blockRarity[type];
+    if (rand < sum) return type;
+  }
+}
+
+function generateGrid() {
+  grid.innerHTML = '';
+  for (let i=0;i<100;i++) {
+    let type = weightedRandom();
+    let block = document.createElement('div');
+    block.classList.add('block', blockTypes[type].colorClass);
+    block.dataset.type = type;
+    block.dataset.remaining = blockTypes[type].clicks;
+    block.addEventListener('click', breakBlock);
+    grid.appendChild(block);
+  }
+}
+
+function breakBlock(e) {
+  let block = e.target;
+  let type = block.dataset.type;
+  let remaining = parseInt(block.dataset.remaining);
+  remaining--;
+  block.dataset.remaining = remaining;
+
+  if (remaining <= 0) {
+    block.removeEventListener('click', breakBlock);
+    block.classList.add('pulse');
+    setTimeout(()=>block.remove(), 300);
+
+    todayScore.totalScore += 1;
+    todayScore.blockCounts[type] = (todayScore.blockCounts[type] || 0) + 1;
+
+    if (type === 'artifact') {
+      artifacts.push({ date: today, type: 'artifact', id: `artifact-${Date.now()}` });
+    }
+
+    if (todayScore.totalScore > highscore.score) {
+      highscore.score = todayScore.totalScore;
+      highscore.date = today;
+    }
+
+    saveData();
+    checkClear();
+  }
+}
+
+function checkClear() {
+  if (!grid.querySelector('.block')) {
+    generateGrid();
+  }
+}
+
+scoresBtn.addEventListener('click', ()=>showScores());
+artifactsBtn.addEventListener('click', ()=>showArtifacts());
+
+function showScores() {
+  scoresList.innerHTML = '';
+  scores.forEach(s => {
+    let div = document.createElement('div');
+    div.textContent = `${s.date}: ${s.totalScore}`;
+    scoresList.appendChild(div);
+  });
+  highscoreEl.textContent = `Highscore: ${highscore.score} (${highscore.date})`;
+  scoresModal.classList.remove('hidden');
+}
+
+function showArtifacts() {
+  artifactsList.innerHTML = '';
+  artifacts.forEach(a => {
+    let div = document.createElement('div');
+    div.textContent = `${a.date}: ${a.id}`;
+    artifactsList.appendChild(div);
+  });
+  artifactsModal.classList.remove('hidden');
+}
+
+function closeModal(id) {
+  document.getElementById(id).classList.add('hidden');
+}
+
+generateGrid();
