@@ -1,7 +1,6 @@
 const grid = document.getElementById('grid');
 const scoresBtn = document.getElementById('scoresBtn');
 const artifactsBtn = document.getElementById('artifactsBtn');
-const scoresModal = document.getElementById('scoresModal');
 const artifactsModal = document.getElementById('artifactsModal');
 const scoresList = document.getElementById('scoresList');
 const highscoreEl = document.getElementById('highscore');
@@ -181,17 +180,6 @@ function refillGrid() {
 scoresBtn.addEventListener('click', ()=>showScores());
 artifactsBtn.addEventListener('click', ()=>showArtifacts());
 
-function showScores() {
-  scoresList.innerHTML = '';
-  scores.forEach(s => {
-    let div = document.createElement('div');
-    div.textContent = `${s.date}: ${s.totalScore}`;
-    scoresList.appendChild(div);
-  });
-  highscoreEl.textContent = `Highscore: ${highscore.score} (${highscore.date})`;
-  scoresModal.classList.remove('hidden');
-}
-
 function showArtifacts() {
   artifactsList.innerHTML = '';
 
@@ -228,7 +216,10 @@ function closeModal(id) {
 
 function updateTodayScore() {
   const scoreDiv = document.getElementById('todayScore');
-  scoreDiv.textContent = `Today's Score: ${todayScore.totalScore}`;
+  scoreDiv.textContent = `Score: ${todayScore.totalScore}`;
+
+  const highscoreDiv = document.getElementById('highScore');
+  highscoreDiv.textContent = `Highscore: ${highscore.score}`;
 }
 
 function saveBoardState() {
