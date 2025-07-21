@@ -8,15 +8,17 @@ const highscoreEl = document.getElementById('highscore');
 const artifactsList = document.getElementById('artifactsList');
 
 const blockRarity = {
-  dirt: 10000,
-  rock: 5000,
-  gold: 1000,
+  dirt: 5000,
+  grass: 5000,
+  rock: 1500,
+  gold: 500,
   diamond: 100,
   artifact: 10
 };
 
 const blockTypes = {
   dirt: { clicks: 1, colorClass: 'dirt', value: 1 },
+  grass: { clicks: 1, colorClass: 'grass', value: 1 },
   rock: { clicks: 2, colorClass: 'rock', value: 1 },
   gold: { clicks: 1, colorClass: 'gold', value: 50 },
   diamond: { clicks: 5, colorClass: 'diamond', value: 1000 },
