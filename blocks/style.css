@@ -109,3 +109,8 @@ button {
   text-align: center;
 }
 
+#artifactsList img {
+  image-rendering: pixelated; /* for pixel art style */
+  border: 1px solid #ccc;
+}
+
