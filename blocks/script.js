@@ -25,12 +25,23 @@ const blockTypes = {
 
 // Define unique artifact items with id and description
 const artifactsData = [
-  { id: 'ancient_sword', name: 'Ancient Sword', description: 'A rusted sword from a lost civilisation.' },
-  { id: 'golden_idol', name: 'Golden Idol', description: 'A small golden idol with emerald eyes.' },
-  { id: 'crystal_orb', name: 'Crystal Orb', description: 'A glowing orb humming with energy.' },
-  { id: 'dragon_scale', name: 'Dragon Scale', description: 'A massive scale from a legendary dragon.' },
-  { id: 'mysterious_tablet', name: 'Mysterious Tablet', description: 'Covered in runes no one can decipher.' }
+  {
+    id: 'vase',
+    name: 'vase',
+    image: 'images/artifact_vase.png'
+  },
+  {
+    id: 'mask',
+    name: 'mask',
+    image: 'images/artifact_mask.png'
+  },
+  {
+    id: 'scarab',
+    name: 'scarab',
+    image: 'images/artifact_scarab.png'
+  }
 ];
+
 
 let today = new Date().toISOString().slice(0,10);
 let scores = JSON.parse(localStorage.getItem('bb_scores')) || [];
@@ -124,7 +135,7 @@ function breakBlock(e) {
         artifacts.push({
           id: artifactData.id,
           name: artifactData.name,
-          description: artifactData.description,
+          image: artifactData.image,
           date: today
         });
       }
@@ -181,7 +192,7 @@ function showScores() {
 
 function showArtifacts() {
   artifactsList.innerHTML = '';
-  
+
   if (artifacts.length === 0) {
     let div = document.createElement('div');
     div.textContent = 'No artifacts collected yet.';
@@ -189,7 +200,18 @@ function showArtifacts() {
   } else {
     artifacts.forEach(a => {
       let div = document.createElement('div');
-      div.innerHTML = `<strong>${a.name}</strong>: ${a.description}`;
+      let img = document.createElement('img');
+      img.src = a.image;
+      img.alt = a.name;
+      img.width = 50;
+      img.height = 50;
+      div.appendChild(img);
+
+      // Optionally show name under image
+      let name = document.createElement('div');
+      name.textContent = a.name;
+      div.appendChild(name);
+
       artifactsList.appendChild(div);
     });
   }
