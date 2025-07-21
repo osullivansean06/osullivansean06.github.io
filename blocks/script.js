@@ -73,7 +73,14 @@ function breakBlock(e) {
   if (remaining <= 0) {
     block.removeEventListener('click', breakBlock);
     block.classList.add('pulse');
-    setTimeout(()=>block.remove(), 300);
+
+    // After animation, mark as empty
+    setTimeout(() => {
+      block.className = 'block empty';
+      block.dataset.type = 'empty';
+      block.dataset.remaining = 0;
+      checkClear();
+    }, 300);
 
     todayScore.totalScore += 1;
     todayScore.blockCounts[type] = (todayScore.blockCounts[type] || 0) + 1;
@@ -88,14 +95,24 @@ function breakBlock(e) {
     }
 
     saveData();
-    checkClear();
   }
 }
 
 function checkClear() {
-  if (!grid.querySelector('.block')) {
-    generateGrid();
+  const remainingBlocks = Array.from(grid.children).filter(b => b.dataset.type !== 'empty');
+  if (remainingBlocks.length === 0) {
+    refillGrid();
   }
+}
+
+function refillGrid() {
+  Array.from(grid.children).forEach(slot => {
+    let type = weightedRandom();
+    slot.className = `block ${blockTypes[type].colorClass}`;
+    slot.dataset.type = type;
+    slot.dataset.remaining = blockTypes[type].clicks;
+    slot.addEventListener('click', breakBlock);
+  });
 }
 
 scoresBtn.addEventListener('click', ()=>showScores());
