@@ -10,9 +10,9 @@ const artifactsList = document.getElementById('artifactsList');
 const blockRarity = {
   dirt: 10000,
   rock: 5000,
-  gold: 500,
-  diamond: 10,
-  artifact: 5000
+  gold: 1000,
+  diamond: 100,
+  artifact: 10
 };
 
 const blockTypes = {
