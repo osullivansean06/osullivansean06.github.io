@@ -74,7 +74,6 @@ function breakBlock(e) {
     block.removeEventListener('click', breakBlock);
     block.classList.add('pulse');
 
-    // After animation, mark as empty
     setTimeout(() => {
       block.className = 'block empty';
       block.dataset.type = 'empty';
@@ -95,8 +94,13 @@ function breakBlock(e) {
     }
 
     saveData();
+  } else {
+    // Animate partial damage
+    block.classList.add('shake');
+    block.addEventListener('animationend', () => block.classList.remove('shake'), { once: true });
   }
 }
+
 
 function checkClear() {
   const remainingBlocks = Array.from(grid.children).filter(b => b.dataset.type !== 'empty');
