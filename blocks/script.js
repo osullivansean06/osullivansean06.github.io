@@ -61,6 +61,7 @@ function generateGrid() {
     block.addEventListener('click', breakBlock);
     grid.appendChild(block);
   }
+  updateTodayScore();
 }
 
 function breakBlock(e) {
@@ -82,6 +83,7 @@ function breakBlock(e) {
     }, 300);
 
     todayScore.totalScore += 1;
+    updateTodayScore();
     todayScore.blockCounts[type] = (todayScore.blockCounts[type] || 0) + 1;
 
     if (type === 'artifact') {
@@ -146,5 +148,11 @@ function showArtifacts() {
 function closeModal(id) {
   document.getElementById(id).classList.add('hidden');
 }
+
+function updateTodayScore() {
+  const scoreDiv = document.getElementById('todayScore');
+  scoreDiv.textContent = `Today's Score: ${todayScore.totalScore}`;
+}
+
 
 generateGrid();
