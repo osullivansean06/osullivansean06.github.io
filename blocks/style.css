@@ -30,9 +30,11 @@ button {
 
 #grid {
   display: grid;
-  grid-template-columns: repeat(10, 40px);
+  grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
   grid-gap: 4px;
-  margin: 20px;
+  width: 90vw;
+  max-width: 600px;
+  margin: 20px auto;
 }
 
 .block {
