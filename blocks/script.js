@@ -175,17 +175,22 @@ function showScores() {
   scoresModal.classList.remove('hidden');
 }
 
-
 function showArtifacts() {
-  const modal = document.getElementById('artifactsModal');
-  modal.innerHTML = '<h2>Artifacts Collected</h2>';
-  artifacts.forEach(a => {
-    modal.innerHTML += `<div class="artifact">
-      <strong>${a.name}</strong><br>
-      <em>${a.description}</em>
-    </div>`;
-  });
-  modal.style.display = 'block';
+  artifactsList.innerHTML = '';
+  
+  if (artifacts.length === 0) {
+    let div = document.createElement('div');
+    div.textContent = 'No artifacts collected yet.';
+    artifactsList.appendChild(div);
+  } else {
+    artifacts.forEach(a => {
+      let div = document.createElement('div');
+      div.innerHTML = `<strong>${a.name}</strong>: ${a.description}`;
+      artifactsList.appendChild(div);
+    });
+  }
+
+  artifactsModal.classList.remove('hidden');
 }
 
 
