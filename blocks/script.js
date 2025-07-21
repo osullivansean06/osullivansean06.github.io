@@ -12,15 +12,15 @@ const blockRarity = {
   rock: 5000,
   gold: 500,
   diamond: 10,
-  artifact: 1
+  artifact: 5000
 };
 
 const blockTypes = {
   dirt: { clicks: 1, colorClass: 'dirt', value: 1 },
-  rock: { clicks: 2, colorClass: 'rock', value: 2 },
-  gold: { clicks: 1, colorClass: 'gold', value: 5 },
-  diamond: { clicks: 5, colorClass: 'diamond', value: 10 },
-  artifact: { clicks: 1, colorClass: 'artifact', value: 20 }
+  rock: { clicks: 2, colorClass: 'rock', value: 1 },
+  gold: { clicks: 1, colorClass: 'gold', value: 50 },
+  diamond: { clicks: 5, colorClass: 'diamond', value: 1000 },
+  artifact: { clicks: 1, colorClass: 'artifact', value: 0 }
 };
 
 // Define unique artifact items with id and description
@@ -100,6 +100,10 @@ function breakBlock(e) {
     block.removeEventListener('click', breakBlock);
     block.classList.add('pulse');
 
+    if (navigator.vibrate) {
+        navigator.vibrate(50); // vibrate on destroy
+      }
+    
     setTimeout(() => {
       block.className = 'block empty';
       block.dataset.type = 'empty';
