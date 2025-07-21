@@ -1,9 +1,6 @@
 const grid = document.getElementById('grid');
-const scoresBtn = document.getElementById('scoresBtn');
 const artifactsBtn = document.getElementById('artifactsBtn');
 const artifactsModal = document.getElementById('artifactsModal');
-const scoresList = document.getElementById('scoresList');
-const highscoreEl = document.getElementById('highscore');
 const artifactsList = document.getElementById('artifactsList');
 
 const blockRarity = {
@@ -218,7 +215,7 @@ function updateTodayScore() {
   const scoreDiv = document.getElementById('todayScore');
   scoreDiv.textContent = `Score: ${todayScore.totalScore}`;
 
-  const highscoreDiv = document.getElementById('highScore');
+  const highscoreDiv = document.getElementById('highscore');
   highscoreDiv.textContent = `Highscore: ${highscore.score}`;
 }
 
