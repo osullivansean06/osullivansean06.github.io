@@ -61,7 +61,7 @@ function weightedRandom() {
 
 function generateGrid() {
   grid.innerHTML = '';
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 36; i++) {
     let type = weightedRandom();
     let block = document.createElement('div');
     block.classList.add('block', blockTypes[type].colorClass);
