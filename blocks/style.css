@@ -41,6 +41,10 @@ button {
 }
 
 .dirt {
+  background: #7a3e09;
+}
+
+.grass {
   background: #34eb89;
 }
 
