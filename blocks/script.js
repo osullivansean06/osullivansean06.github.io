@@ -17,11 +17,20 @@ const blockRarity = {
 
 const blockTypes = {
   dirt: { clicks: 1, colorClass: 'dirt', value: 1 },
-  rock: { clicks: 2, colorClass: 'rock', value: 1 },
-  gold: { clicks: 1, colorClass: 'gold', value: 10 },
-  diamond: { clicks: 5, colorClass: 'diamond', value: 100 },
-  artifact: { clicks: 1, colorClass: 'artifact', value: 1000 }
+  rock: { clicks: 2, colorClass: 'rock', value: 2 },
+  gold: { clicks: 1, colorClass: 'gold', value: 5 },
+  diamond: { clicks: 5, colorClass: 'diamond', value: 10 },
+  artifact: { clicks: 1, colorClass: 'artifact', value: 20 }
 };
+
+// Define unique artifact items with id and description
+const artifactsData = [
+  { id: 'ancient_sword', name: 'Ancient Sword', description: 'A rusted sword from a lost civilisation.' },
+  { id: 'golden_idol', name: 'Golden Idol', description: 'A small golden idol with emerald eyes.' },
+  { id: 'crystal_orb', name: 'Crystal Orb', description: 'A glowing orb humming with energy.' },
+  { id: 'dragon_scale', name: 'Dragon Scale', description: 'A massive scale from a legendary dragon.' },
+  { id: 'mysterious_tablet', name: 'Mysterious Tablet', description: 'Covered in runes no one can decipher.' }
+];
 
 let today = new Date().toISOString().slice(0,10);
 let scores = JSON.parse(localStorage.getItem('bb_scores')) || [];
@@ -60,6 +69,20 @@ function generateGrid() {
     block.dataset.remaining = blockTypes[type].clicks;
     block.addEventListener('click', breakBlock);
     grid.appendChild(block);
+
+    if (type === 'artifact') {
+      const artifactId = getRandomArtifactId();
+      if (artifactId) {
+        block.dataset.artifactId = artifactId;
+      } else {
+        // All artifacts collected, fallback to dirt or any common block
+        type = 'dirt';
+        block.classList.add(blockTypes[type].colorClass);
+        block.dataset.type = type;
+        block.dataset.remaining = blockTypes[type].clicks;
+      }
+}
+    
   }
   updateTodayScore();
   saveBoardState();
@@ -89,7 +112,18 @@ function breakBlock(e) {
     todayScore.blockCounts[type] = (todayScore.blockCounts[type] || 0) + 1;
 
     if (type === 'artifact') {
-      artifacts.push({ date: today, type: 'artifact', id: `artifact-${Date.now()}` });
+      const artifactId = block.dataset.artifactId;
+      const artifactData = artifactsData.find(a => a.id === artifactId);
+    
+      // Only collect if not already collected
+      if (!artifacts.some(a => a.id === artifactId)) {
+        artifacts.push({
+          id: artifactData.id,
+          name: artifactData.name,
+          description: artifactData.description,
+          date: today
+        });
+      }
     }
 
     if (todayScore.totalScore > highscore.score) {
@@ -141,15 +175,19 @@ function showScores() {
   scoresModal.classList.remove('hidden');
 }
 
+
 function showArtifacts() {
-  artifactsList.innerHTML = '';
+  const modal = document.getElementById('artifactsModal');
+  modal.innerHTML = '<h2>Artifacts Collected</h2>';
   artifacts.forEach(a => {
-    let div = document.createElement('div');
-    div.textContent = `${a.date}: ${a.id}`;
-    artifactsList.appendChild(div);
+    modal.innerHTML += `<div class="artifact">
+      <strong>${a.name}</strong><br>
+      <em>${a.description}</em>
+    </div>`;
   });
-  artifactsModal.classList.remove('hidden');
+  modal.style.display = 'block';
 }
+
 
 function closeModal(id) {
   document.getElementById(id).classList.add('hidden');
@@ -194,6 +232,17 @@ function loadBoardState() {
   } else {
     generateGrid();
   }
+}
+
+function getRandomArtifactId() {
+  // Get ids of already collected artifacts
+  const collectedIds = artifacts.map(a => a.id);
+  // Filter uncollected
+  const uncollected = artifactsData.filter(a => !collectedIds.includes(a.id));
+  // If all collected, return null to avoid spawning artifacts
+  if (uncollected.length === 0) return null;
+  // Otherwise return a random uncollected artifact id
+  return uncollected[Math.floor(Math.random() * uncollected.length)].id;
 }
 
 
