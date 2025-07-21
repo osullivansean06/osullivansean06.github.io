@@ -215,7 +215,7 @@ function updateTodayScore() {
   const scoreDiv = document.getElementById('todayScore');
   scoreDiv.textContent = `Score: ${todayScore.totalScore}`;
 
-  const highscoreDiv = document.getElementById('highscore');
+  const highscoreDiv = document.getElementById('highScore');
   highscoreDiv.textContent = `Highscore: ${highscore.score}`;
 }
 
