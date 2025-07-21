@@ -52,7 +52,7 @@ function weightedRandom() {
 
 function generateGrid() {
   grid.innerHTML = '';
-  for (let i=0;i<100;i++) {
+  for (let i = 0; i < 100; i++) {
     let type = weightedRandom();
     let block = document.createElement('div');
     block.classList.add('block', blockTypes[type].colorClass);
@@ -62,7 +62,9 @@ function generateGrid() {
     grid.appendChild(block);
   }
   updateTodayScore();
+  saveBoardState();
 }
+
 
 function breakBlock(e) {
   let block = e.target;
@@ -80,10 +82,10 @@ function breakBlock(e) {
       block.dataset.type = 'empty';
       block.dataset.remaining = 0;
       checkClear();
+      saveBoardState();
     }, 300);
 
     todayScore.totalScore += 1;
-    updateTodayScore();
     todayScore.blockCounts[type] = (todayScore.blockCounts[type] || 0) + 1;
 
     if (type === 'artifact') {
@@ -95,13 +97,17 @@ function breakBlock(e) {
       highscore.date = today;
     }
 
+    updateTodayScore();
     saveData();
   } else {
     // Animate partial damage
     block.classList.add('shake');
     block.addEventListener('animationend', () => block.classList.remove('shake'), { once: true });
+    block.dataset.remaining = remaining;
+    saveBoardState();
   }
 }
+
 
 
 function checkClear() {
@@ -154,5 +160,42 @@ function updateTodayScore() {
   scoreDiv.textContent = `Today's Score: ${todayScore.totalScore}`;
 }
 
+function saveBoardState() {
+  const boardState = Array.from(grid.children).map(block => ({
+    type: block.dataset.type,
+    remaining: parseInt(block.dataset.remaining)
+  }));
+  localStorage.setItem('boardState', JSON.stringify(boardState));
+}
 
-generateGrid();
+function loadBoardState() {
+  const stored = localStorage.getItem('boardState');
+  if (stored) {
+    const boardState = JSON.parse(stored);
+    grid.innerHTML = '';
+    boardState.forEach(cell => {
+      let block = document.createElement('div');
+      block.classList.add('block');
+
+      if (cell.type !== 'empty') {
+        block.classList.add(blockTypes[cell.type].colorClass);
+        block.dataset.type = cell.type;
+        block.dataset.remaining = cell.remaining;
+        block.addEventListener('click', breakBlock);
+      } else {
+        block.classList.add('empty');
+        block.dataset.type = 'empty';
+        block.dataset.remaining = 0;
+      }
+
+      grid.appendChild(block);
+    });
+    updateTodayScore();
+  } else {
+    generateGrid();
+  }
+}
+
+
+
+loadBoardState();
