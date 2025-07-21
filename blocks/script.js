@@ -9,18 +9,18 @@ const artifactsList = document.getElementById('artifactsList');
 
 const blockRarity = {
   dirt: 50,
-  rock: 30,
-  gold: 15,
-  diamond: 4,
-  artifact: 1
+  rock: 10,
+  gold: 1,
+  diamond: 0.1,
+  artifact: 0.01
 };
 
 const blockTypes = {
-  dirt: { clicks: 1, colorClass: 'dirt' },
-  rock: { clicks: 2, colorClass: 'rock' },
-  gold: { clicks: 1, colorClass: 'gold' },
-  diamond: { clicks: 5, colorClass: 'diamond' },
-  artifact: { clicks: 1, colorClass: 'artifact' }
+  dirt: { clicks: 1, colorClass: 'dirt', value: 1 },
+  rock: { clicks: 2, colorClass: 'rock', value: 2 },
+  gold: { clicks: 1, colorClass: 'gold', value: 5 },
+  diamond: { clicks: 5, colorClass: 'diamond', value: 10 },
+  artifact: { clicks: 1, colorClass: 'artifact', value: 20 }
 };
 
 let today = new Date().toISOString().slice(0,10);
@@ -85,7 +85,7 @@ function breakBlock(e) {
       saveBoardState();
     }, 300);
 
-    todayScore.totalScore += 1;
+    todayScore.totalScore += blockTypes[type].value;
     todayScore.blockCounts[type] = (todayScore.blockCounts[type] || 0) + 1;
 
     if (type === 'artifact') {
